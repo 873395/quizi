@@ -1,0 +1,25 @@
+@media (max-width: 600px){
+    
+    .content_A
+    {
+        border-right: 0px solid white;
+        border-bottom: 2px solid white;
+        border-radius: 0px;
+        width: 90%;
+        padding: 1%;
+        text-align: center;
+        background-color: black;
+    }
+    
+    #content_1,#content_3
+    {
+    float: inherit;
+    }
+    
+    #content_2,#content_4
+    {
+        float: inherit;
+    }
+
+    
+    }
