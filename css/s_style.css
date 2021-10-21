@@ -1,0 +1,68 @@
+#navBar
+{
+    border-bottom: 1px solid white;
+    background-color: black;
+    text-align: center;
+}
+
+.navBar
+{
+    display: inline-block;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    padding-left:1%;
+    padding-right:1%;
+    font-weight: 600;
+}
+
+.navBar:hover
+{
+    color: red;
+    cursor: pointer; 
+}
+
+#content
+{
+}
+
+.content_A
+{
+    margin: 4%;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 30px;
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+    background-color: black;
+}
+
+#content_1,#content_3
+{
+    float: left;
+}
+
+#content_2,#content_4
+{
+    float: right;
+}
+
+#home_page
+{
+    position: absolute;
+    left: 48.5%;
+    width: 5%;
+    border: 3px solid white;
+    background-color: black;
+    transform: rotate(45deg);
+}
+#home_page:hover
+{
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+#blank_div
+{
+    width: 5%;
+}
