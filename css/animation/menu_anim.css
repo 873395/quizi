@@ -1,0 +1,49 @@
+@keyframes menu_h
+{
+    0%
+    {
+        position: absolute;
+        top: -100%;
+        color: black;
+    }
+    80%
+    {
+        color: black;
+    }
+
+    100%
+    {
+        top: 0.1%;
+        color: white;
+    }
+}
+
+@keyframes menu_z
+{
+    0%
+    {
+        top: 0.1%;
+        color: white;
+    }
+    80%
+    {
+        position: absolute;
+        top: -100%;
+        color: black;
+    }
+    100%
+    {
+        position: absolute;
+        top: -100%;
+        color: black;
+    }
+}
+
+.rozwin_menu_anime
+{
+    animation: menu_h 1s normal forwards;
+}
+.zwin_menu_anime
+{
+    animation: menu_z 1s normal forwards;
+}

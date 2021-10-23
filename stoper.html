@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LICZNIK</title>
-    <link rel="stylesheet" href="css/s_body.css">
-    <link rel="stylesheet" href="css/s_style.css">
-</head>
-<body>
-    <div id="navBar">
-        <div onclick="przenosiny_na_strone(1)" class="navBar" id="nav_1">ODLICZANIE</div>
-        <div onclick="przenosiny_na_strone(2)" class="navBar" id="nav_2">STOPER</div>
-        <div class="navBar" id="blank_div"></div>
-        <img onclick="przenosiny_na_strone(3)" id="home_page" src="img/logo.png">
-        <div onclick="przenosiny_na_strone(4)" class="navBar" id="nav_3">O NAS</div>
-        <div onclick="przenosiny_na_strone(5)" class="navBar" id="nav_4">KONTAKT</div>
-    </div>
-
-    <div id="content">
-    </div>
-    <script src="js/z_page.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LICZNIK</title>
+        <link rel="stylesheet" href="css/s_body.css">
+        <link rel="stylesheet" href="css/s_style.css">
+        <link rel="stylesheet" href="css/s_menu.css">
+        <link rel="stylesheet" href="css_mobile/s_body_mobile.css">
+        <link rel="stylesheet" href="css_mobile/s_style_mobile.css">
+    </head>
+    <body>
+        <div class="pozition" id="nav_bar">
+            <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">
+            <div onclick="ch_site(1)" class="menu_OP" id="Op_2">
+                <img id="logo_ico" src="ico/logo_ico.png">
+            </div>
+        </div>
+        <div class="pozition" id="content_box"></div>
+        <script src="js/new_menu.js"></script>
+        <script src="js/change_site.js"></script>
+    </body>
 </html>
