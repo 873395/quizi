@@ -10,9 +10,11 @@
 }
 .menu_OP
 {
-    width: 90%;
+    width: 100%;
     border: 3px solid white;
+    border-radius: 10px;
     padding: 5px;
+    margin-bottom: 25px;
 }
 .menu_OP:hover
 {

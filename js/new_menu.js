@@ -7,6 +7,10 @@ let somediv=document.createElement('div');
         naglowek.id="menu_naglowek";
         naglowek.innerHTML="Serwis Quizowy - QUIZI";
         szer_menu.appendChild(naglowek);
+            let menu_timer=document.createElement('div');
+            menu_timer.id="menu_klikalnik_czas";
+            menu_timer.innerHTML="czas";
+            szer_menu.appendChild(menu_timer);
 
 function r_menu()
 {

@@ -1,0 +1,25 @@
+#content_timer
+{
+    background-color: white;
+    width: 95%;
+    float: right;
+    color: black;
+    margin-top: 300px;
+    padding: 20px;
+}
+#tlo_zegar
+{
+    margin-left: 40%;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 20px solid orange;
+    border-radius: 200px;
+    text-align: center;
+}
+#zegar_napis
+{
+    padding-top: 35%;
+    font-size: 70px;
+    font-weight: 600;
+}
