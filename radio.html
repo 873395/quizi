@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="css/animation/menu_anim.css">
     <link rel="stylesheet" href="css/s_body.css">
     <link rel="stylesheet" href="css/s_style.css">
-    <link rel="stylesheet" href="css/s_timer_style.css">
     <link rel="stylesheet" href="css/s_menu.css">
+    <link rel="stylesheet" href="css/s_content_box_3.css">
     <link rel="stylesheet" href="css/s_stopka.css">
     <link rel="stylesheet" href="css_mobile/s_body_mobile.css">
     <link rel="stylesheet" href="css_mobile/s_style_mobile.css">
 </head>
-<body onload="">
+<body>
     <div class="pozition" id="nav_bar">
         <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">
         <img onclick="ch_site(2)" class="menu_OP" id="Op_1" src="ico/menu_timer.png">
@@ -28,8 +28,8 @@
         <div id="content_selector">
             <div class="content_class" id="content_left">
                 <div id="content_left_text">
-                    <div id="clt_1">CZAS NA</div>
-                    <div id="clt_2">STOPER</div>
+                    <div id="clt_1">SŁUCHAJ</div>
+                    <div id="clt_2">RADIA</div>
                     <div id="content_large_cube">
                             <div id="lc_1">chcesz się sprawdzić?</div>
                             <div id="lc_2">odpowiedz</div>
@@ -52,22 +52,15 @@
                 </ul>
             </div>
         </div>
-            <div id="content_timer">
-                <div id="timer_gray">
-                    <input type="value" id="wartoscSekundy">
-                    <input type="value" id="wartoscMinuty">
-                    <input type="value" id="wartoscGodziny">
-                    <div id="tlo_zegar">
-                    <div id="zegar_napis">00:00:00</div>
-                    <input type="submit" onclick="wczytaj_czas()" id="wczytaj_liczby" value="WCZYTAJ">
+                <div id="content_box_3">
+                    <div class="pojemniki_autor" id="content_box_3_autor">
+                        RADIO CHILL                    </div>
                 </div>
                 </div>
-            </div>
     </div>
-    <div id="stopka">&copy; QUIZI 2021</div>
+            <div id="stopka">&copy; QUIZI 2021</div>
     <script src="js/new_menu.js"></script>
     <script src="js/change_site.js"></script>
     <script src="js/change_img.js"></script>
-    <script src="js/clock.js"></script>
 </body>
 </html>

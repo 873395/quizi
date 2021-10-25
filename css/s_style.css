@@ -1,10 +1,11 @@
 #content_left
 {
-    background-color: rgb(22, 21, 21);
+    background-color: rgb(27, 27, 27);
     width: 70%;
     height: 300px;
     float: left;
     margin-left:5% ;
+    z-index: 1;
 }
 #content_left_text
 {
@@ -15,6 +16,7 @@
     color: orange;
     font-weight: 900;
     line-height: 90%;
+    z-index: 1;
 }
 #content_right
 {
@@ -26,6 +28,8 @@
     background-color: rgb(190, 188, 188);
     color: black;
     opacity: 80%;
+        z-index: 1;
+
 }
 
 .content_class

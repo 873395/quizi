@@ -1,0 +1,25 @@
+#content_box_3
+{
+    background-color: white;
+    color: black;
+    width: 95%;
+    float: right;
+    margin-top: 130px;
+}
+#content_box_3_autor
+{
+    background-color:rgb(104, 104, 104);
+    color: white;
+    text-align: right;
+    width: 100%;
+    float: left;
+    text-align: left;
+    padding-left: 6%;
+    margin-bottom: 30px;
+}
+#img_autor
+{
+    width: 30%;
+    float: right;
+    border-left: 40px solid white;
+}

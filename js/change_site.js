@@ -8,6 +8,10 @@ function ch_site(chsite)
     {
         window.open("timer.html","_self");
     }
+    if(chsite==3)
+    {
+        window.open("radio.html","_self");
+    }
 
 
     if(chsite==10)

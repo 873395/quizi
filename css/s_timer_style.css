@@ -1,11 +1,13 @@
 #content_timer
 {
+    z-index: -1;
     background-color: white;
     width: 95%;
     float: right;
     color: black;
-    margin-top: 300px;
-    padding: 20px;
+    padding-top: 15%;
+    padding-bottom: 2%;
+    opacity: 80%;
 }
 #tlo_zegar
 {
@@ -22,4 +24,18 @@
     padding-top: 35%;
     font-size: 70px;
     font-weight: 600;
+}
+#wczytaj_liczby
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 5px solid orange;
+    border-radius: 50px;
+}
+#timer_gray
+{
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+    text-align: center;
 }
