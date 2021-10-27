@@ -53,21 +53,23 @@
             </div>
         </div>
             <div id="content_timer">
-                <div id="timer_gray">
-                    <input type="value" id="wartoscSekundy">
-                    <input type="value" id="wartoscMinuty">
-                    <input type="value" id="wartoscGodziny">
+                <div id="osadzenie_licznika">
                     <div id="tlo_zegar">
-                    <div id="zegar_napis">00:00:00</div>
-                    <input type="submit" onclick="wczytaj_czas()" id="wczytaj_liczby" value="WCZYTAJ">
+                        <input placeholder="sek"  type="number" class="wprow_wart" id="dane_sekundy">
+                        <input placeholder="min"  type="number" class="wprow_wart" id="dane_minuty">
+                        <input placeholder="godz" type="number" class="wprow_wart" id="dane_godziny">    
+                        <div id="zegar_napis">00:00:00</div>
+                    </div> 
+                    <input id="start_odliczania" onclick="pobierz_czas()" type="submit" value="START">
                 </div>
+                <div id="licznik_opis">
+                    1
                 </div>
             </div>
     </div>
     <div id="stopka">&copy; QUIZI 2021</div>
     <script src="js/new_menu.js"></script>
     <script src="js/change_site.js"></script>
-    <script src="js/change_img.js"></script>
     <script src="js/clock.js"></script>
 </body>
 </html>

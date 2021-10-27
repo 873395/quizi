@@ -1,41 +1,81 @@
 #content_timer
 {
-    z-index: -1;
-    background-color: white;
     width: 95%;
     float: right;
     color: black;
-    padding-top: 15%;
-    padding-bottom: 2%;
+    background-color: white;
+    padding-top: 13%;
     opacity: 80%;
+    text-align: center;
 }
 #tlo_zegar
 {
-    margin-left: 40%;
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     background-color: white;
-    border: 20px solid orange;
-    border-radius: 200px;
+    border: 10px solid white;
+    border-radius: 20px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 #zegar_napis
 {
-    padding-top: 35%;
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
 }
 #wczytaj_liczby
 {
     width: 100px;
-    height: 100px;
+    height: 50px;
     background-color: white;
     border: 5px solid orange;
     border-radius: 50px;
-}
-#timer_gray
-{
-    background-color: rgb(187, 187, 187);
-    padding: 20px;
     text-align: center;
+}
+.wprow_wart
+{
+    margin-top: 4%;
+    width: 150px;
+    padding:2%;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.wprow_wart:hover
+{
+    background-color: black;
+    color: orange;
+}
+#start_odliczania
+{
+    margin-top: 10px;
+    width: 300px;
+    padding: 0.5%;
+    font-weight: 700;
+    font-size: 30px;
+}
+#start_odliczania:hover
+{
+    color: orange;
+    background-color: black;
+}
+
+
+
+#osadzenie_licznika
+{
+    padding-top: 150px;
+    background-color: rgb(180, 127, 77);
+    height: 500px;
+}
+#glowny_licznik
+{
+    width: 100%;
+}
+#licznik_opis
+{
+    background-color: rgb(180, 127, 77);
+    padding: 2%;
 }
