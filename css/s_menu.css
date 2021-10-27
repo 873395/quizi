@@ -1,7 +1,7 @@
 #nav_bar
 {
     background-color: black;
-    border-right: 10px solid white;
+    border-right: 8px solid white;
     width: 5%;
     height: 100vh;
     padding: 1%;
@@ -30,13 +30,13 @@
 #Op_2
 {
     position: absolute;
-    left: -40%;
+    left: -90%;
     top: 35%;
-    width: 180%;
+    width: 280%;
     height: 22%;
-    border: 7px solid white;
+    border: 10px solid white;
     background-color: black;
-    transform: rotate(60deg);
+    transform: rotate(70deg);
     z-index: 1;
 }
 

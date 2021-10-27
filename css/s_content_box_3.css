@@ -1,6 +1,7 @@
+/* Elementy     pojemnika informacje o autorze stronie głównej   */
 #content_box_3
 {
-    background-color: white;
+    background-color: rgb(226, 72, 72);
     color: black;
     width: 95%;
     float: right;

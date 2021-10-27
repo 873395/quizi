@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css_mobile/s_body_mobile.css">
     <link rel="stylesheet" href="css_mobile/s_style_mobile.css">
 </head>
-<body>
+<body onload="czas_wczytaj()">
     <div class="pozition" id="nav_bar">
         <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">
         <img onclick="ch_site(2)" class="menu_OP" id="Op_1" src="ico/menu_timer.png">
@@ -52,6 +52,7 @@
                 </ul>
             </div>
         </div>
+        <!-- Zaczyna się sekcja kafelkór -->
             <div id="content_box_2">
                 <div class="content_box_2" id="content_box_2.1">
                    <div id="content_box_image">
@@ -80,15 +81,27 @@
                             </div>
                         </div>
             </div>
+            <!-- Zaczyna się sekcja autora  -->
                 <div id="content_box_3">
                     <div class="pojemniki_autor" id="content_box_3_autor">
-                        Informacje o autorze
                         <img class="pojemniki_autor" id="img_autor" src="img/autor_img.png">
+                        <h2>COŚ O AUTORZE</h2>
+                        <p>GDZIE MOŻNA ZLAPAĆ AUTORA?</p>
+                            <ul>
+                                <li>Południe polski to ulubione miejsce przebywania</li>
+                            </ul>
+                        <p>ZAINTERESOWANIA</p>
+                            <ul>
+                                <li>nowoczesne technologie, informatyka, elektronika, grafika, ...</li>
+                            </ul>
+                        <p>MĄDROŚCI ŻYCIOWE</p>
+                            "Pomimo problemów i przeciwności losu nie wolno się poddawać, trzeba dążyć do celu, jaki sobie obraliśmy. Cieszmy się z życia tego co robić lubimy"
                     </div>
                 </div>
                 </div>
     </div>
             <div id="stopka">&copy; QUIZI 2021</div>
+    <script src="js/slide.js"></script>
     <script src="js/new_menu.js"></script>
     <script src="js/change_site.js"></script>
     <script src="js/change_img.js"></script>
