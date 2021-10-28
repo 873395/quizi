@@ -48,7 +48,11 @@
     background-color: black;
     color: orange;
 }
-#start_odliczania
+#stop_odliczanie:hover
+{
+    color: red;
+}
+.guziki_odliczanie
 {
     margin-top: 10px;
     width: 300px;
@@ -56,7 +60,7 @@
     font-weight: 700;
     font-size: 30px;
 }
-#start_odliczania:hover
+.guziki_odliczanie:hover
 {
     color: orange;
     background-color: black;

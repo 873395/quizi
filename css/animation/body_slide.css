@@ -1,0 +1,33 @@
+#sl_div
+{
+    background-color: white;
+    width: 200%;
+    height: 100%;
+    position: absolute;
+    right: -200%;
+    position: fixed;
+    z-index: 1;
+}
+.sl_div_anim
+{
+    animation: animki_slide 2s normal forwards;
+}
+.sl_div_anim_rew
+{
+    animation: animki_slide_rew 2s normal forwards;
+}
+
+@keyframes animki_slide
+{
+    0%{}
+    100%{
+        right: -100%;
+    }
+}
+@keyframes animki_slide_rew
+{
+    0%{right: -100%;}
+    100%{
+        right: 200%;
+    }
+}

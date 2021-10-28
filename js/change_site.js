@@ -2,15 +2,40 @@ function ch_site(chsite)
 {
     if(chsite==1)
     {
-        window.open("index.html","_self");
+            sl_div.className="sl_div_anim";
+            setTimeout(function(){
+                sl_div.classList.remove("sl_div_anim");
+                window.open("index.html","_self");
+            },2000)
+        setTimeout(function(){
+            sl_div.className="sl_div_anim_rew";
+            sl_div.classList.remove("sl_div_anim_rew");
+        },2000)
+
     }
     if(chsite==2)
     {
-        window.open("timer.html","_self");
+        sl_div.className="sl_div_anim";
+        setTimeout(function(){
+            sl_div.classList.remove("sl_div_anim");
+            window.open("timer.html","_self");
+        },2000)
+    setTimeout(function(){
+        sl_div.className="sl_div_anim_rew";
+        sl_div.classList.remove("sl_div_anim_rew");
+    },2000)
     }
     if(chsite==3)
     {
-        window.open("radio.html","_self");
+        sl_div.className="sl_div_anim";
+            setTimeout(function(){
+                sl_div.classList.remove("sl_div_anim");
+                window.open("radio.html","_self");
+            },2000)
+        setTimeout(function(){
+            sl_div.className="sl_div_anim_rew";
+            sl_div.classList.remove("sl_div_anim_rew");
+        },2000)
     }
 
 

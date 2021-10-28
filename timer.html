@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/s_timer_style.css">
     <link rel="stylesheet" href="css/s_menu.css">
     <link rel="stylesheet" href="css/s_stopka.css">
+    <link rel="stylesheet" href="css/animation/body_slide.css">
     <link rel="stylesheet" href="css_mobile/s_body_mobile.css">
     <link rel="stylesheet" href="css_mobile/s_style_mobile.css">
 </head>
@@ -55,12 +56,12 @@
             <div id="content_timer">
                 <div id="osadzenie_licznika">
                     <div id="tlo_zegar">
-                        <input placeholder="sek"  type="number" class="wprow_wart" id="dane_sekundy">
-                        <input placeholder="min"  type="number" class="wprow_wart" id="dane_minuty">
-                        <input placeholder="godz" type="number" class="wprow_wart" id="dane_godziny">    
+                        <input placeholder="godziny" type="number" class="wprow_wart" id="dane_godziny">    
+                        <input placeholder="minuty"  type="number" class="wprow_wart" id="dane_minuty">
+                        <input placeholder="sekundy"  type="number" class="wprow_wart" id="dane_sekundy">
                         <div id="zegar_napis">00:00:00</div>
                     </div> 
-                    <input id="start_odliczania" onclick="pobierz_czas()" type="submit" value="START">
+                    <input id="start_odliczania" class="guziki_odliczanie" onclick="pobierz_czas()" type="submit" value="START">
                 </div>
                 <div id="licznik_opis">
                     1
@@ -71,5 +72,7 @@
     <script src="js/new_menu.js"></script>
     <script src="js/change_site.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/bazy_danych/bazy_danych.js"></script>
+    <script src="css/animation/body_slide.js"></script>
 </body>
 </html>
