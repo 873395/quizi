@@ -1,20 +1,24 @@
 #sl_div
 {
-    background-color: white;
+    background: linear-gradient(to bottom,rgb(36, 36, 36) 50%, white 51%);
     width: 200%;
     height: 100%;
     position: absolute;
     right: -200%;
     position: fixed;
     z-index: 1;
+    color: orange;
+    font-size: 500px;
+    font-weight: 900;
+    padding-left: 100px;
 }
 .sl_div_anim
 {
-    animation: animki_slide 2s normal forwards;
+    animation: animki_slide 1s normal forwards;
 }
 .sl_div_anim_rew
 {
-    animation: animki_slide_rew 2s normal forwards;
+    animation: animki_slide_rew 1s normal forwards;
 }
 
 @keyframes animki_slide

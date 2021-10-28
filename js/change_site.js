@@ -1,3 +1,5 @@
+let czas_animacji=1000;
+
 function ch_site(chsite)
 {
     if(chsite==1)
@@ -6,11 +8,11 @@ function ch_site(chsite)
             setTimeout(function(){
                 sl_div.classList.remove("sl_div_anim");
                 window.open("index.html","_self");
-            },2000)
+            },czas_animacji)
         setTimeout(function(){
             sl_div.className="sl_div_anim_rew";
             sl_div.classList.remove("sl_div_anim_rew");
-        },2000)
+        },czas_animacji)
 
     }
     if(chsite==2)
@@ -19,11 +21,11 @@ function ch_site(chsite)
         setTimeout(function(){
             sl_div.classList.remove("sl_div_anim");
             window.open("timer.html","_self");
-        },2000)
+        },czas_animacji)
     setTimeout(function(){
         sl_div.className="sl_div_anim_rew";
         sl_div.classList.remove("sl_div_anim_rew");
-    },2000)
+    },czas_animacji)
     }
     if(chsite==3)
     {
@@ -31,11 +33,11 @@ function ch_site(chsite)
             setTimeout(function(){
                 sl_div.classList.remove("sl_div_anim");
                 window.open("radio.html","_self");
-            },2000)
+            },czas_animacji)
         setTimeout(function(){
             sl_div.className="sl_div_anim_rew";
             sl_div.classList.remove("sl_div_anim_rew");
-        },2000)
+        },czas_animacji)
     }
 
 
