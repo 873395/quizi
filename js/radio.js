@@ -44,5 +44,5 @@ function wybierz_stacje(e)
     audio_radio.src=tab_stac_rad[tak][1];
     audio_radio.volume="0.02";
     audio_radio.play();
-    c_r_naglowek.innerHTML=tab_stac_rad[tak][0];
+    clt_2.innerHTML=tab_stac_rad[tak][0];
 }
