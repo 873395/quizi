@@ -11,17 +11,15 @@
     <link rel="stylesheet" href="css/s_menu.css">
     <link rel="stylesheet" href="css/s_content_box_3.css">
     <link rel="stylesheet" href="css/s_stopka.css">
+    <link rel="stylesheet" href="css/s_radio.css">
     <link rel="stylesheet" href="css/animation/body_slide.css">
     <link rel="stylesheet" href="css_mobile/s_body_mobile.css">
     <link rel="stylesheet" href="css_mobile/s_style_mobile.css">
 </head>
 <body>
     <div class="pozition" id="nav_bar">
-        <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">
-        <img onclick="ch_site(2)" class="menu_OP" id="Op_1" src="ico/menu_timer.png">
-        <img onclick="ch_site(3)" class="menu_OP" id="Op_1" src="ico/menu_radio.png">
-        
-        <div onclick="ch_site(1)" class="menu_OP" id="Op_2">
+        <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">        
+        <div onclick="ch_site(22)" class="menu_OP" id="Op_2">
             <img id="logo_ico" src="ico/logo_ico.png">
         </div>
     </div>
@@ -54,15 +52,17 @@
             </div>
         </div>
                 <div id="content_box_3">
-                    <div class="pojemniki_autor" id="content_box_3_autor">
-                        RADIO CHILL                    </div>
+                    <div id="content_radio">
+                        <div id="c_r_naglowek">NAGŁÓWEK</div>
+                        <audio id="audio_radio" class="pojemniki_stacje" controls></audio><br>
                 </div>
                 </div>
     </div>
             <div id="stopka">&copy; QUIZI 2021</div>
-    <script src="js/new_menu.js"></script>
-    <script src="js/change_site.js"></script>
     <script src="js/bazy_danych/bazy_danych.js"></script>
+    <script src="js/new_menu.js"></script>
+    <script src="js/radio.js"></script>
+    <script src="js/change_site.js"></script>
     <script src="css/animation/body_slide.js"></script>
 </body>
 </html>
