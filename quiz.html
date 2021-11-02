@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LICZNIK</title>
+    <link rel="stylesheet" href="css/animation/menu_anim.css">
+    <link rel="stylesheet" href="css/s_body.css">
+    <link rel="stylesheet" href="css/s_style.css">
+    <link rel="stylesheet" href="css/s_menu.css">
+    <link rel="stylesheet" href="css/s_content_box_3.css">
+    <link rel="stylesheet" href="css/s_quiz.css">
+    <link rel="stylesheet" href="css/s_stopka.css">
+    <link rel="stylesheet" href="css/animation/body_slide.css">
+</head>
+<body onload="quizz(),ehs()">
+    <div class="pozition" id="nav_bar">
+        <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">        
+        <div onclick="ch_site(22)" class="menu_OP" id="Op_2">
+            <img id="logo_ico" src="ico/logo_ico.png">
+        </div>
+    </div>
+    <div class="pozition" id="content_box">
+        <div id="content_selector">
+            <div class="content_class" id="content_left">
+                <div id="content_left_text">
+                    <div id="clt_1">ROZWIĄŻ</div>
+                    <div id="clt_2">QUIZ</div>
+                </div>
+            </div>
+            <div class="content_class" id="content_right">
+                <!-- tu są informacje o stanie quizu -->
+                <div class="menu_dodat_opcje paskiWSrodku" id="opcja2" >Liczba punktów</div>
+                    <div id="menu_dodat">
+                    </div>
+            </div>
+        </div>
+
+                <div id="content_box_3">
+                    <div id="content_quiz"> <!--tu trzeba dawać wszystko -->
+                       <div id="quiz_pytanie">
+                        <audio id="utwur" src=""></audio>
+                        <div class="quiz_poj_tresc" id="TrescPytania">Błąd wczytywania pytań</div>
+                        <div class="klikacze" id="guuzik1" onclick="sprawdzenie('A')" value="1">
+                            <div class="quiz_poj_odpowiedz" id="odpowiedz1">A: błąd</div>
+                        </div>
+                        <div class="klikacze" id="guuzik2" onclick="sprawdzenie('B')" value="2">
+                            <div class="quiz_poj_odpowiedz" id="odpowiedz2">B: błąd</div>
+                        </div>
+                        <div class="klikacze" id="guuzik3" onclick="sprawdzenie('C')" value="3">
+                            <div class="quiz_poj_odpowiedz" id="odpowiedz3">C: błąd</div>
+                        </div>
+                         <input id="quiz_poj_nastepne" onclick="quizz()" type="button" value="następne pytanie">
+                         <div class="menu_dodat_opcje" id="kolorek" >Średnia punktów</div>
+                         <div class="menu_dodat_opcje" id="nmrPytania">Numer pytania</div>         
+                        </div>
+                    </div>
+                </div>
+    </div>
+    <div id="stopka">&copy; QUIZI 2021</div>
+
+    <script src="js/bazy_danych/bazy_danych.js"></script>
+    <script src="js/change_site.js"></script>
+    <script src="js/new_menu.js"></script>
+    <script src="css/animation/body_slide.js"></script>
+    
+
+    <script src="js/quiz_script/quiz.js"></script>
+    <script src="js/quiz_script/dzwiek.js"></script>
+    <script src="js/quiz_script/wybory.js"></script>
+</body>
+</html>

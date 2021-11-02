@@ -7,10 +7,17 @@ let somediv=document.createElement('div');
         naglowek.id="menu_naglowek";
         naglowek.innerHTML="Serwis Quizowy - QUIZI";
         szer_menu.appendChild(naglowek);
-            let menu_timer=document.createElement('div');
-            menu_timer.id="menu_klikalnik_czas";
-            menu_timer.innerHTML="czas";
-            szer_menu.appendChild(menu_timer);
+            for(let m=0;m<guziki_menu.length;m++)
+            {
+                let rmenu_opcja=document.createElement('div');
+                    rmenu_opcja.id="roz_menu_opcja";
+                    rmenu_opcja.className="rmenu_opcje";
+                    rmenu_opcja.innerHTML=guziki_menu[m][0];
+                    rmenu_opcja.stacja=`${m}`;
+                    rmenu_opcja.addEventListener('click',ch_podstrony,false);
+                szer_menu.appendChild(rmenu_opcja);
+            }
+
 
 function r_menu()
 {

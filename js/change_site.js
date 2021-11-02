@@ -1,4 +1,5 @@
 let czas_animacji=1000;
+let stacja;
 
 for(let licz_opcji=0;licz_opcji<guziki_menu.length;licz_opcji++)
 {

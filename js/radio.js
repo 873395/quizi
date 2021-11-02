@@ -36,7 +36,6 @@ for(l_stac_rad=0;l_stac_rad<tab_stac_rad.length;l_stac_rad++)
 function wybierz_stacje(e)
 {
     let tak = e.currentTarget.stacja;
-    console.warn(`url('${tab_stac_rad[tak][2]}')`);
     audio_radio.style.backgroundImage = `url('${tab_stac_rad[tak][2]}')`;
     audio_radio.style.backgroundImage
     audio_radio.style.backgroundSize="cover";
