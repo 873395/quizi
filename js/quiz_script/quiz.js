@@ -104,33 +104,39 @@ function quizz()
         let takjakbt;
         if(kkl=="menu_dodat_op_klik")
         {
-            // tutaj jest losowe ułożenie pytań
+            // tutaj jest losowe ułożenie odpowiedzi
             takjakbt=op_kategoria[rrt];
             if(pytania[indeks][5]==takjakbt)
             {
-                let nodp=Math.floor(Math.random()*(3-1)+1);
-                let nzmien=Math.floor(Math.random()*(3-1)+1);
+                let pPytanie=Math.floor(Math.random()*(3-1)+1);
+                let dPytanie=Math.floor(Math.random()*(3-1)+1);
                 let nowePytania=new Array;
                 let litera;
+                let idlitera;
+                let nowyZnak;
+                litera=pytania[indeks][4];
+                    if(litera=="A"){idlitera=1}
+                    if(litera=="B"){idlitera=2}
+                    if(litera=="C"){idlitera=3}
                 for(let ipyt=0;ipyt<6;ipyt++)
                 {
                     nowePytania[ipyt]=pytania[indeks][ipyt];
-                    if(nodp==ipyt)
-                    {
-                        nowePytania[nodp]=pytania[indeks][nzmien];
-                        console.warn(nodp);
-                    }
-                    if(nzmien==ipyt)
-                    {
-                        nowePytania[nzmien]=pytania[indeks][nodp];
-                        console.warn(nzmien);
-                        if(nzmien==1){nowePytania[4]="A"}
-                        if(nzmien==2){nowePytania[4]="B"}
-                        if(nzmien==3){nowePytania[4]="C"}
-                    }
-                    
                 }
-                console.warn(nowePytania[4]);
+                    nowePytania[pPytanie]=pytania[indeks][dPytanie];
+                    nowePytania[dPytanie]=pytania[indeks][pPytanie];
+                if(nowePytania[idlitera]!=pytania[indeks][idlitera]&&idlitera!=pPytanie)
+                {
+                    nowePytania[4]=pPytanie;
+                }
+                if(nowePytania[idlitera]!=pytania[indeks][idlitera]&&idlitera!=dPytanie)
+                {
+                    nowePytania[4]=dPytanie;
+                }
+                nowyZnak=nowePytania[4];
+                if(nowyZnak==1){nowePytania[4]="A"}
+                if(nowyZnak==2){nowePytania[4]="B"}
+                if(nowyZnak==3){nowePytania[4]="C"}
+
                 nmrPytania.innerHTML=`Pytanie: ${indeks+1}, kategoria: ${pytania[indeks][5]}`;
                 TrescPytania.innerHTML=nowePytania[0];
                 odpowiedz1.innerHTML=nowePytania[1];
