@@ -80,7 +80,6 @@ function podswietlanie_opcji(ini_op)
 
 function quizz()
 {
-    let wlasciwe;
     let indeks;
     let zakres=new Array;
     for(let dd=0;dd<pytania.length;dd++)
@@ -98,8 +97,6 @@ function quizz()
     }
         let randNum=Math.floor(Math.random()*(zakres.length-0)+0);
         indeks=zakres[randNum];
-    console.warn(zakres);
-    console.warn(indeks);
 
     for(let rrt=0;rrt<op_kategoria.length;rrt++)
     {
@@ -107,26 +104,55 @@ function quizz()
         let takjakbt;
         if(kkl=="menu_dodat_op_klik")
         {
+            // tutaj jest losowe ułożenie pytań
             takjakbt=op_kategoria[rrt];
             if(pytania[indeks][5]==takjakbt)
             {
+                let nodp=Math.floor(Math.random()*(3-1)+1);
+                let nzmien=Math.floor(Math.random()*(3-1)+1);
+                let nowePytania=new Array;
+                let litera;
+                for(let ipyt=0;ipyt<6;ipyt++)
+                {
+                    nowePytania[ipyt]=pytania[indeks][ipyt];
+                    if(nodp==ipyt)
+                    {
+                        nowePytania[nodp]=pytania[indeks][nzmien];
+                        console.warn(nodp);
+                    }
+                    if(nzmien==ipyt)
+                    {
+                        nowePytania[nzmien]=pytania[indeks][nodp];
+                        console.warn(nzmien);
+                    }
+                    if(pytania[indeks][4]=="A"){litera=1}
+                    if(pytania[indeks][4]=="B"){litera=2}
+                    if(pytania[indeks][4]=="C"){litera=3}
+                    if(nod==1){nowePytania[4]="A"}
+                    if(nod==2){nowePytania[4]="B"}
+                    if(nod==3){nowePytania[4]="C"}
+                }
+                console.warn(nowePytania[4]);
                 nmrPytania.innerHTML=`Pytanie: ${indeks+1}, kategoria: ${pytania[indeks][5]}`;
-                TrescPytania.innerHTML=pytania[indeks][0];
-                odpowiedz1.innerHTML=pytania[indeks][1];
-                odpowiedz2.innerHTML=pytania[indeks][2];
-                odpowiedz3.innerHTML=pytania[indeks][3];
-                prawidlowa=pytania[indeks][4];
+                TrescPytania.innerHTML=nowePytania[0];
+                odpowiedz1.innerHTML=nowePytania[1];
+                odpowiedz2.innerHTML=nowePytania[2];
+                odpowiedz3.innerHTML=nowePytania[3];
+                prawidlowa=nowePytania[4];
             }
-            pierwsze=true;
+        pierwsze=true;
         }
     }
     
-    poprzednie=wlasciwe;
+    poprzednie=indeks;
 
     guuzik1.style.border='';
     guuzik2.style.border='';
     guuzik3.style.border='';  
 }
+
+
+
 
 let calkowite=0;
 let dobre=0;
