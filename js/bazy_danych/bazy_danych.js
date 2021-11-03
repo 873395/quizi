@@ -16,7 +16,7 @@ let zdj_lista=[
 
 let tab_stac_rad=[
     ["RMF FM","http://217.74.72.4/rmf_fm","img/rmf_fm_logo.png","Radio Muzyka Fakty RMF.FM"],
-    ["RMF MAXXX","https://217.74.72.4/rmf_maxxx","https://i.static.rmf.pl/101/272_272_dopamine.jpg","RMF MAXX - najlepsza muzyka"],
+    ["RMF MAXXX","http://217.74.72.4/rmf_maxxx","https://i.static.rmf.pl/101/272_272_dopamine.jpg","RMF MAXX - najlepsza muzyka"],
 ];
 
 let guziki_menu=[

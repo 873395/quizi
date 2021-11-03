@@ -96,10 +96,8 @@ function quizz()
             }
         }
     }
-    for(cc=0;indeks!=zakres[cc];cc++)
-    {
-        indeks=Math.floor(Math.random()*(zakres.length)-1)+1;
-    }
+        let randNum=Math.floor(Math.random()*(zakres.length-0)+0);
+        indeks=zakres[randNum];
     console.warn(zakres);
     console.warn(indeks);
 
@@ -110,24 +108,19 @@ function quizz()
         if(kkl=="menu_dodat_op_klik")
         {
             takjakbt=op_kategoria[rrt];
-            if(pytania[wlasciwe][5]==takjakbt)
+            if(pytania[indeks][5]==takjakbt)
             {
-                nmrPytania.innerHTML=`Pytanie: ${wlasciwe+1}, kategoria: ${pytania[indeks][5]}`;
-                TrescPytania.innerHTML=pytania[wlasciwe][0];
-                odpowiedz1.innerHTML=pytania[wlasciwe][1];
-                odpowiedz2.innerHTML=pytania[wlasciwe][2];
-                odpowiedz3.innerHTML=pytania[wlasciwe][3];
-                prawidlowa=pytania[wlasciwe][4];
-            }
-            else
-            {
+                nmrPytania.innerHTML=`Pytanie: ${indeks+1}, kategoria: ${pytania[indeks][5]}`;
+                TrescPytania.innerHTML=pytania[indeks][0];
+                odpowiedz1.innerHTML=pytania[indeks][1];
+                odpowiedz2.innerHTML=pytania[indeks][2];
+                odpowiedz3.innerHTML=pytania[indeks][3];
+                prawidlowa=pytania[indeks][4];
             }
             pierwsze=true;
         }
     }
     
-    console.warn("stare "+poprzednie);
-    console.warn("nowe "+wlasciwe);
     poprzednie=wlasciwe;
 
     guuzik1.style.border='';
