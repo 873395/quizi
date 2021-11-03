@@ -124,13 +124,11 @@ function quizz()
                     {
                         nowePytania[nzmien]=pytania[indeks][nodp];
                         console.warn(nzmien);
+                        if(nzmien==1){nowePytania[4]="A"}
+                        if(nzmien==2){nowePytania[4]="B"}
+                        if(nzmien==3){nowePytania[4]="C"}
                     }
-                    if(pytania[indeks][4]=="A"){litera=1}
-                    if(pytania[indeks][4]=="B"){litera=2}
-                    if(pytania[indeks][4]=="C"){litera=3}
-                    if(nod==1){nowePytania[4]="A"}
-                    if(nod==2){nowePytania[4]="B"}
-                    if(nod==3){nowePytania[4]="C"}
+                    
                 }
                 console.warn(nowePytania[4]);
                 nmrPytania.innerHTML=`Pytanie: ${indeks+1}, kategoria: ${pytania[indeks][5]}`;
