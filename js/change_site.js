@@ -4,8 +4,22 @@ let stacja;
 for(let licz_opcji=0;licz_opcji<guziki_menu.length;licz_opcji++)
 {
     let menu_opcja=document.createElement('img');
-    menu_opcja.id='Op_1';
-    menu_opcja.className="menu_OP";
+    if(licz_opcji!=1)
+    {
+        menu_opcja.id=`Op_1`;
+    }
+    else
+    {
+        menu_opcja.id=`Op_3`;
+    }
+    if(licz_opcji<1)
+    {
+        menu_opcja.className="menu_OP";
+    }
+    else
+    {
+        menu_opcja.className="menu_OP2";
+    }
     menu_opcja.src=guziki_menu[licz_opcji][1];
     menu_opcja.addEventListener('click',ch_podstrony,false);
     menu_opcja.stacja=`${licz_opcji}`;

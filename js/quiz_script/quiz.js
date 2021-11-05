@@ -19,8 +19,14 @@ element_zakrywajacy.id="element_zakrywajacy";
             kom_guzik.id="guzik_wykonaj";
             kom_guzik.innerHTML="WYKONAJ";
             okno_komunikatu.appendChild(kom_guzik);
-            kom_guzik.addEventListener('click',ukrywacze,false);
+            kom_guzik.addEventListener('click',zakrywka,false);
 document.body.appendChild(element_zakrywajacy);
+
+function zakrywka()
+{
+    element_zakrywajacy.className="zmiana_zdjecia";
+    setTimeout(ukrywacze,500);
+}
 
 function ukrywacze()
 {

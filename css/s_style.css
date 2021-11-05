@@ -160,4 +160,5 @@ font-size: 22px;
 #c_box_img_2
 {
     margin: -20px;
+    z-index: 1;
 }

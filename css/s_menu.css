@@ -9,6 +9,7 @@
     position: fixed;
     z-index: 1;
 }
+
 .menu_OP
 {
     width: 100%;
@@ -17,6 +18,20 @@
     margin-bottom: 25px;
     background-blend-mode:saturation;
     background-color: rgb(37, 37, 37);
+}
+.menu_OP2
+{
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-blend-mode:saturation;
+    background-color: rgb(37, 37, 37);
+}
+.menu_OP2:hover
+{
+    cursor: pointer;
+    background-color: red;
 }
 .menu_OP:hover
 {
@@ -27,6 +42,10 @@
 .position
 {
     display: inline-block;
+}
+#Op_3
+{
+    margin-top: 1500%;
 }
 #Op_2
 {
