@@ -25,6 +25,7 @@ document.body.appendChild(element_zakrywajacy);
 function zakrywka()
 {
     element_zakrywajacy.className="zmiana_zdjecia";
+    quiz_pytanie.className="zmiana_zdjecia";
     setTimeout(ukrywacze,500);
 }
 
@@ -85,6 +86,18 @@ function podswietlanie_opcji(ini_op)
 }
 
 function quizz()
+{
+    quiz_pytanie.className="zmiana_zdjecia";
+    quiz_pytanie.classList.remove("zmiana_zmiana_zdjecia_wycofaj");
+    setTimeout(wyzwolenie,500);
+}
+function znikaj()
+{
+    quiz_pytanie.className="zmiana_zdjecia_wycofaj";
+    quiz_pytanie.classList.remove("zmiana_zmiana_zdjecia");
+}
+
+function wyzwolenie()
 {
     let indeks;
     let zakres=new Array;
@@ -152,13 +165,14 @@ function quizz()
             }
         pierwsze=true;
         }
+        setTimeout(znikaj,50);
     }
     
     poprzednie=indeks;
 
     guuzik1.style.border='';
     guuzik2.style.border='';
-    guuzik3.style.border='';  
+    guuzik3.style.border=''; 
 }
 
 

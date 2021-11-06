@@ -41,6 +41,12 @@ let zdjecia=[
 
 let co_nowego=[
     [
+        "ANIMACJE",
+        "dodatkowe animacje przy zmianie pytania",
+        "06.11.2021",
+        "4.6.1",
+    ],
+    [
         "PODSTRONY",
         "powstały lub zostały zmienione podstrony<br> (o autorze) oraz (informacje), pełna funkcjonalność strony",
         "06.11.2021",
@@ -113,7 +119,7 @@ let inf_autor=[
     ],
     [
         "SZCZEGÓLNIE POTRAKTOWANE",
-        "Kolej, zarówno ta dawna jak i ta obecna zajmuje szczególne miejsce na liście zainteresowań.<br> Gdyby była taka możliwość byłbym koolejarzem ;-)"
+        "Kolej, zarówno ta dawna jak i ta obecna zajmuje szczególne miejsce na liście zainteresowań.<br> Gdyby była taka możliwość byłbym kolejarzem ;-)"
     ],
     [
         "NOWE TECHNOLOGIE?",
