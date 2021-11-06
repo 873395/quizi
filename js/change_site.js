@@ -61,10 +61,10 @@ function ch_site(chsite)
     }
     if(chsite==11)
     {
-        window.open("index.html","_self");
+        window.open("info.html","_self");
     }
     if(chsite==12)
     {
-        window.open("index.html","_self");
+        window.open("autor.html","_self");
     }
 }

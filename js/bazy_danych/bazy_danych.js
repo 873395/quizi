@@ -23,14 +23,8 @@ let guziki_menu=[
     ["QUIZ","ico/menu_quiz.png","quiz.html"],
     ["TIMER","ico/menu_timer.png","timer.html"],
     ["RADIO","ico/menu_radio.png","radio.html"],
-]
-
-
-let op_kategoria=[
-    "Sprzęt komputerowy",
-    "Systemy operacyjne",
-    "Sieci komputerowe",
-    "Bazy danych, SQL",
+    ["AUTOR","ico/autor_ico.png","autor.html"],
+    ["INFORMACJE","ico/info_ico.png","info.html"],
 ]
 let zdjecia=[
     '<br><img src="img/quiz/1.jpg" title="Standard komunikacji"></img>',
@@ -42,6 +36,102 @@ let zdjecia=[
     '<br><img src="img/quiz/7.jpg" title="Prawa autorskie"></img>',
     '<br><img src="img/quiz/8.jpg" title="Prawa autorskie"></img>',
     '<br><img src="img/quiz/9.jpg" title="Prawa autorskie"></img>',
+    '<img src="img/autor_img.png" title="Zdjęcie autora strony"></img>',
+]
+
+let co_nowego=[
+    [
+        "PODSTRONY",
+        "powstały lub zostały zmienione podstrony<br> (o autorze) oraz (informacje), pełna funkcjonalność strony",
+        "06.11.2021",
+        "4.6.0",
+    ],
+    [
+        "QUIZ - #TAGI",
+        "możliwość wybierania pytań po zaznaczonych #tagach",
+        "05.11.2021",
+        "4.5.0",
+    ],
+    [
+        "QUIZ - LOSOWOŚĆ ODPOWIEDZI",
+        "ulepszona została funkcjonalność, która zamienia kolejność odpowiedzi podczas losowania pytania",
+        "03.11.2021",
+        "4.4.0",
+    ],
+    [
+        "QUIZ",
+        "powstały skrypty odpowiedzialne za funkcjonalność quizu",
+        "31.10.2021",
+        "4.0.0",
+    ],
+    [
+        "AUTOMATYZACJA",
+        "nastąpiły zmiany w skryptach na stronie, odtąd przejścia na podstrony realizowane sa za pomocą skryptów, doszły animacje",
+        "30.10.2021",
+        "3.0.0",
+    ],
+    [
+        "RADIO",
+        "powstały skrypty radia, całkowita funkcjonalność powstała kilka dni później",
+        "25.10.2021",
+        "2.2.0",
+    ],
+    [
+        "ZMIANY W STRUKTURZE",
+        "w tym dniu nastąpiły duże zmiany w strukturze strony, powstała strona zegara oraz zalążki strony głównej",
+        "23.10.2021",
+        "2.0.0",
+    ],
+    [
+     "POWSTANIE STRONY",
+     "Tego dnia, wieczorem, powstała strona QUIZI mająca na celu kształcenie poprzez rozwiązywanie quizów",
+     "21.10.2021",
+     "1.0.0",
+    ],
+];
+
+let inf_autor=[
+    [
+        "KTO TO JEST?",
+        `${zdjecia[9]}`
+    ],
+    [
+        "PODSTAWOWE INFORMACJE",
+        "<ul><li>Adrian Ziajor</li><li>Lat: 19</li><li>Wykształcenie: prawie technik informatyk</li></ul>"
+    ],
+    [
+        "PRZYBLIŻONE MIEJSCE PRZEBYWANIA",
+        "Południowo-Wschodnia część Polski - woj. Podkarpackie"
+    ],
+    [
+        "ZAINTERESOWANIA",
+        "<ul><li>informatyka</li><li>elektronika</li><li>nowe technologie</li><li>kolej, lotnictwo</li></ul>"
+    ],
+    [
+        "ZDOLNOŚCI SPORTOWE?",
+        "Niewielkie, ale tenis ziemny zawsze na +"
+    ],
+    [
+        "SZCZEGÓLNIE POTRAKTOWANE",
+        "Kolej, zarówno ta dawna jak i ta obecna zajmuje szczególne miejsce na liście zainteresowań.<br> Gdyby była taka możliwość byłbym koolejarzem ;-)"
+    ],
+    [
+        "NOWE TECHNOLOGIE?",
+        "Staram się być na bierząco z nowinkami w świecie technologi, ale nie jest to zawsze możliwe, technologia dzisiaj bardzo idzie do przodu"
+    ],
+    [
+        "FILOZOF SIĘ ZNALAZŁ",
+        "Pomimo problemów i przeciwności losu nie wolno się poddawać, trzeba dążyć do celu, jaki sobie obraliśmy. Cieszmy się z życia tego co robić lubimy"
+    ],
+
+    
+]
+
+let op_kategoria=[
+    "Sprzęt komputerowy",
+    "Systemy operacyjne",
+    "Sieci komputerowe",
+    "Bazy danych, SQL",
 ]
 
 

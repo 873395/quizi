@@ -1,0 +1,62 @@
+:root {
+    --glowny-kolor: rgb(75, 93, 194);
+    --drugi-kolor: rgb(197, 197, 197);
+}
+#content_left_text
+{
+    position: absolute;
+    font-size: 750%;
+    padding-left: 5%;
+    padding-top: 1.4%;
+    color: var(--glowny-kolor);
+    font-weight: 900;
+    line-height: 90%;
+    z-index: 1;
+}
+#content_box_3
+{
+    background-color: white;
+    color: black;
+    width: 95%;
+    float: right;
+    padding: 100px 0px;
+    padding-left: 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+
+
+
+.content_autor
+{
+    width: 700px;
+    color: white;
+    margin: 10px 40px;
+    font-size: 25px;
+    text-align: center;
+    background-color: var(--glowny-kolor);
+    border-radius: 10px;
+    display: inline-block;
+    float: left;
+}
+.autor_naglowek
+{
+    font-size: 35px;
+    font-weight: 900;
+    padding: 20px;
+    text-align: left;
+    border-bottom: 10px solid white;
+}
+.autor_tresc
+{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 600;
+    color: black;
+    background-color: var(--drugi-kolor);
+}
+img
+{
+    width: 100%;
+}
