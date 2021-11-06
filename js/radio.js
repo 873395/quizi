@@ -42,6 +42,7 @@ function wybierz_stacje(e)
     audio_radio.style.backgroundPosition="center";
     audio_radio.src=tab_stac_rad[tak][1];
     audio_radio.volume="0.02";
+    audio_radio.setAttribute('crossorigin', 'anonymous');
     audio_radio.play();
     clt_2.innerHTML=tab_stac_rad[tak][0];
 }
