@@ -4,11 +4,16 @@ let poprzednie=0;
 let dobrykolor="#00A500";
 let zlykolor="#A50000";
 let klasa;
+let indeks;
+let kom_pokazany=1;
 
 let element_zakrywajacy=document.createElement("div");
 let okno_komunikatu=document.createElement("div");
 let konunikat_naglowek=document.createElement("div");
 let kom_guzik=document.createElement("div");
+let wyloncznik_dzwieku=document.createElement("div");
+wyloncznik_dzwieku.id="guzik_wykonaj";
+wyloncznik_dzwieku.innerHTML="WŁĄCZ DŹWIĘKI";
 element_zakrywajacy.id="element_zakrywajacy";
     okno_komunikatu.id="okno_komunikatu";
     element_zakrywajacy.appendChild(okno_komunikatu);
@@ -18,9 +23,61 @@ element_zakrywajacy.id="element_zakrywajacy";
         elementy_kategoryzujace()
             kom_guzik.id="guzik_wykonaj";
             kom_guzik.innerHTML="WYKONAJ";
+            wyloncznik_dzwieku.addEventListener('click',ehs,false);
+            wyloncznik_dzwieku.addEventListener('click',wlaczone,false);
+            okno_komunikatu.appendChild(wyloncznik_dzwieku);
             okno_komunikatu.appendChild(kom_guzik);
             kom_guzik.addEventListener('click',zakrywka,false);
 document.body.appendChild(element_zakrywajacy);
+
+function powieksz_zdj()
+{
+    if(kom_pokazany%2!=0)
+    {
+        let element_zakrywajacy=document.createElement("div");
+    let powieksz_okno=document.createElement("div");
+    let pow_zdjecie=document.createElement("div");
+    let kom_guzik=document.createElement("div");
+    let print_guzik=document.createElement("div");
+    let zdjecie_powieksz=pytania[indeks][6];
+    pow_zdjecie.id="zdj_wieksze";
+    zdjecie_powieksz.id="zdj_pow";
+    element_zakrywajacy.id="element_zakrywajacy";
+    powieksz_okno.id="okno_powieksz";
+    pow_zdjecie.innerHTML=zdjecie_powieksz;
+
+    kom_guzik.id="guzik_wykonaj";
+    print_guzik.id="guzik_wykonaj";
+    kom_guzik.innerHTML="OK";
+    print_guzik.innerHTML="DRUKUJ";
+    kom_guzik.addEventListener('click',ukryj_pow,false);
+    print_guzik.addEventListener('click',drukuj,false);
+    
+    element_zakrywajacy.appendChild(powieksz_okno);
+    powieksz_okno.appendChild(pow_zdjecie);
+    powieksz_okno.appendChild(print_guzik);
+    powieksz_okno.appendChild(kom_guzik);
+    document.body.appendChild(element_zakrywajacy);
+    kom_pokazany++;
+    }
+    else
+    {
+        ukryj_pow();
+        kom_pokazany=1;
+    }
+}
+function drukuj()
+{
+    window.print();
+}
+
+function ukryj_pow()
+{
+    document.getElementById("element_zakrywajacy").remove();
+    kom_pokazany=1;
+}
+
+
 
 function zakrywka()
 {
@@ -99,7 +156,6 @@ function znikaj()
 
 function wyzwolenie()
 {
-    let indeks;
     let zakres=new Array;
     for(let dd=0;dd<pytania.length;dd++)
     {
@@ -156,8 +212,17 @@ function wyzwolenie()
                 if(nowyZnak==2){nowePytania[4]="B"}
                 if(nowyZnak==3){nowePytania[4]="C"}
 
+                if(pytania[indeks][6]!=null)
+                {
+                    q_zdjecie.innerHTML=pytania[indeks][6];
+                }
+                else
+                {
+                    q_zdjecie.innerHTML="";
+                }
+
                 nmrPytania.innerHTML=`Pytanie: ${indeks+1}, kategoria: ${pytania[indeks][5]}`;
-                TrescPytania.innerHTML=nowePytania[0];
+                q_pytanie.innerHTML=nowePytania[0];
                 odpowiedz1.innerHTML=nowePytania[1];
                 odpowiedz2.innerHTML=nowePytania[2];
                 odpowiedz3.innerHTML=nowePytania[3];

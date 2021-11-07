@@ -41,7 +41,10 @@
                     <div id="content_quiz"> <!--tu trzeba dawać wszystko -->
                        <div id="quiz_pytanie">
                         <audio id="utwur" src=""></audio>
-                        <div class="quiz_poj_tresc" id="TrescPytania">Błąd wczytywania pytań</div>
+                        <div class="quiz_poj_tresc" id="TrescPytania">
+                            <div id="q_pytanie">Pytanie</div>
+                            <div id="q_zdjecie">img</div>
+                        </div>
                         <div class="klikacze" id="guuzik1" onclick="sprawdzenie('A')" value="1">
                             <div class="quiz_poj_odpowiedz" id="odpowiedz1">A: błąd</div>
                         </div>
@@ -66,8 +69,8 @@
     <script src="css/animation/body_slide.js"></script>
     
 
-    <script src="js/quiz_script/quiz.js"></script>
     <script src="js/quiz_script/dzwiek.js"></script>
+    <script src="js/quiz_script/quiz.js"></script>
     <script src="js/quiz_script/wybory.js"></script>
 </body>
 </html>

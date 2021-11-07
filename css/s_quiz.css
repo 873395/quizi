@@ -51,7 +51,41 @@
     color: orange;
 }
 
+/* Elementy powiększające zdjęcie w quizie */
+#okno_powieksz
+{
+    margin:0px auto;
+    margin-top: -15%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
 
+#zdj_wieksze
+{
+    margin: 0px auto;
+    width: 70%;
+    text-align: center;
+}
+#zdj_wieksze:hover
+{
+    cursor: zoom-out;
+}
+#q_zdjecie
+{
+    margin: 0px auto;
+    width: 40%;
+    color: white;
+}
+#q_zdjecie:hover
+{
+cursor:zoom-in;
+}
+img
+{
+    width: 100%;
+}
 
 /* style do pojedyńczych odpowiedzi quizu */
 

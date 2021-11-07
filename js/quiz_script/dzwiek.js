@@ -45,22 +45,28 @@ function odsluch()
 }
 function ehs()
 {
+    console.warn(odpalone);
+console.warn(morzna);
     odpalone=0;
     if(odpalone%2==0)
-    {sluchaj.style.backgroundColor='#46209e';
+    {guzik_wykonaj.style.backgroundColor='#46209e';
     }
-    else{sluchaj.style.backgroundColor='';
+    else{guzik_wykonaj.style.backgroundColor='';
     }
 }
 
 function wlaczone()
 {
     if(odpalone%2==0)
-    {sluchaj.style.backgroundColor='#46209e';
+    {guzik_wykonaj.style.backgroundColor='#46209e';
     morzna=true;
     }
-    else{sluchaj.style.backgroundColor='';
+    else{guzik_wykonaj.style.backgroundColor='';
     morzna=false;
     }
     odpalone++;
+}
+function testownik()
+{
+
 }
