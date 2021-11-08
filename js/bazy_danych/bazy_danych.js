@@ -42,6 +42,12 @@ let zdjecia=[
 
 let co_nowego=[
     [
+        "ZMIANY W RADIU",
+        "zmienił się wygląd odtwarzacza radia, teraz jest mniej błędów",
+        "08.11.2021",
+        "4.8.0",
+    ],
+    [
         "USPRAWNIENIA DLA NIEDOWIDZĄCYCH",
         "opcja po najechaniu na zdjęcie w sekcji QUIZ, która powiększa zdjęcie do odpowiednich rozmiarów",
         "07.11.2021",
