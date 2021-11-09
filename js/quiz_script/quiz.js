@@ -13,6 +13,7 @@ let konunikat_naglowek=document.createElement("div");
 let kom_guzik=document.createElement("div");
 let wyloncznik_dzwieku=document.createElement("div");
 wyloncznik_dzwieku.id="guzik_wykonaj";
+wyloncznik_dzwieku.className="guzik_wykonaj";
 wyloncznik_dzwieku.innerHTML="WŁĄCZ DŹWIĘKI";
 element_zakrywajacy.id="element_zakrywajacy";
     okno_komunikatu.id="okno_komunikatu";
@@ -22,6 +23,7 @@ element_zakrywajacy.id="element_zakrywajacy";
         okno_komunikatu.appendChild(konunikat_naglowek);
         elementy_kategoryzujace()
             kom_guzik.id="guzik_wykonaj";
+            kom_guzik.className="guzik_wykonaj";
             kom_guzik.innerHTML="WYKONAJ";
             wyloncznik_dzwieku.addEventListener('click',ehs,false);
             wyloncznik_dzwieku.addEventListener('click',wlaczone,false);
@@ -47,7 +49,9 @@ function powieksz_zdj()
     pow_zdjecie.innerHTML=zdjecie_powieksz;
 
     kom_guzik.id="guzik_wykonaj";
-    print_guzik.id="guzik_wykonaj";
+    print_guzik.id="guzik_wykonaj2";
+    kom_guzik.className="guzik_wykonaj";
+    print_guzik.className="guzik_wykonaj";
     kom_guzik.innerHTML="OK";
     print_guzik.innerHTML="DRUKUJ";
     kom_guzik.addEventListener('click',ukryj_pow,false);
@@ -68,7 +72,11 @@ function powieksz_zdj()
 }
 function drukuj()
 {
+    document.getElementById("guzik_wykonaj").style.opacity="0%";
+    document.getElementById("guzik_wykonaj2").style.opacity="0%";
     window.print();
+    document.getElementById("guzik_wykonaj").style.opacity="";
+    document.getElementById("guzik_wykonaj2").style.opacity="";
 }
 
 function ukryj_pow()

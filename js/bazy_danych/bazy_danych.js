@@ -17,7 +17,7 @@ let zdj_lista=[
 let tab_stac_rad=[
     ["RMF FM","http://217.74.72.4/rmf_fm","img/rmf_fm_logo.png","Radio Muzyka Fakty RMF.FM"],
     ["RMF MAXXX","http://217.74.72.4/rmf_maxxx","img/rmf_maxxx_logo.png","RMF MAXX - najlepsza muzyka"],
-    ["RMF DANCE","http://217.74.72.4/rmf_dance","img/rmf_dance_logo.png","RMF MAXX - najlepsza muzyka"],
+    ["RMF DANCE","http://217.74.72.4/rmf_dance","img/rmf_dance_logo.png","RMF Dance - tańcz do najlepszej muzyki"],
 ];
 
 let guziki_menu=[
@@ -41,6 +41,12 @@ let zdjecia=[
 ]
 
 let co_nowego=[
+    [
+        "RESPONSYWNOŚĆ",
+        "zmianie i częściowej poprawie uległa responsywność strony",
+        "09.11.2021",
+        "5.0.0",
+    ],
     [
         "ZMIANY W RADIU",
         "zmienił się wygląd odtwarzacza radia, teraz jest mniej błędów",

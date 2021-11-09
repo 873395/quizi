@@ -1,0 +1,229 @@
+@media (max-width: 1000px) {
+#nav_bar
+{
+    background-color: black;
+    border-right: 3px solid white;
+    width: 8%;
+    height: 100vh;
+    padding: 0.7%;
+    float: left;
+    position: fixed;
+    z-index: 1;
+}
+.menu_OP
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(37, 37, 37);
+}
+.menu_OP2
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(37, 37, 37);
+}
+.menu_OP2:hover
+{
+    cursor: pointer;
+    background-color: red;
+}
+.menu_OP:hover
+{
+    cursor: pointer;
+    background-color: orange;
+}
+.position
+{
+    display: inline-block;
+}
+#Op_3
+{
+    margin-top: 650%;
+}
+#Op_2
+{
+    position: absolute;
+    left: -90%;
+    top: 30%;
+    width: 220%;
+    height: 20%;
+    border: 5px solid white;
+    background-color: black;
+    transform: rotate(70deg);
+    z-index: 3;
+}
+
+
+#szer_menu
+{
+    background-color:rgb(27, 27, 27);
+    width: 92%;
+    height: 30%;
+    border-bottom: 7px solid white;
+    padding: 1%;
+    float: right;
+    position: absolute;
+    top: -100%;
+    right: 0%;
+    z-index: 2;
+}
+#menu_naglowek
+{
+    font-weight: 900;
+    font-size: 30px;
+    padding: 15px;
+}
+
+#logo_ico
+{
+    width: 100%;
+}
+
+#Op_2:hover
+{
+    border: 7px solid orange;
+}
+
+
+
+
+
+.rmenu_opcje
+{
+    background-color: rgb(51, 51, 51);
+    display: inline;
+    padding: 10px;
+    padding-right:15px ;
+    padding-left:15px ;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.rmenu_opcje:hover
+{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+}
+
+@media (max-width: 650px) {
+    #nav_bar
+    {
+        background-color: black;
+        border-right: 3px solid white;
+        width: 8%;
+        height: 100vh;
+        padding: 0.7%;
+        float: left;
+        position: fixed;
+        z-index: 1;
+    }
+    .menu_OP
+    {
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 25px;
+        background-color: rgb(37, 37, 37);
+    }
+    .menu_OP2
+    {
+        width: 100%;
+        border-radius: 5px;
+        padding: 5px;
+        margin-bottom: 25px;
+        background-color: rgb(37, 37, 37);
+    }
+    .menu_OP2:hover
+    {
+        cursor: pointer;
+        background-color: red;
+    }
+    .menu_OP:hover
+    {
+        cursor: pointer;
+        background-color: orange;
+    }
+    .position
+    {
+        display: inline-block;
+    }
+    #Op_3
+    {
+        margin-top: 1350%;
+    }
+    #Op_2
+    {
+        position: absolute;
+        left: -500%;
+        top: 30%;
+        width: 220%;
+        height: 20%;
+        border: 5px solid white;
+        background-color: black;
+        transform: rotate(70deg);
+        z-index: 3;
+    }
+    
+    
+    #szer_menu
+    {
+        background-color:rgb(27, 27, 27);
+        width: 92%;
+        height: 100%;
+        border-bottom: 7px solid white;
+        padding: 1%;
+        float: right;
+        position: absolute;
+        top: -100%;
+        right: 0%;
+        z-index: 2;
+    }
+    #menu_naglowek
+    {
+        font-weight: 900;
+        font-size: 30px;
+        padding: 15px;
+    }
+    
+    #logo_ico
+    {
+        width: 100%;
+    }
+    
+    #Op_2:hover
+    {
+        border: 7px solid orange;
+    }
+    
+    
+    
+    
+    
+    .rmenu_opcje
+    {
+        background-color: rgb(51, 51, 51);
+        padding: 10px;
+        padding-right: 40%;
+        padding-left:15px ;
+        margin: 20px;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 10px;
+        text-align: center;
+        float: left;
+    }
+    .rmenu_opcje:hover
+    {
+        background-color: black;
+        color: orange;
+        cursor: pointer;
+    }
+    }

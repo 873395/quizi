@@ -12,14 +12,18 @@
     background-color: white;
     width: 600px;
     height: 400px;
+    border-radius: 30px;
 }
-
+audio::-webkit-media-controls-panel
+{
+    background-color: orange;
+}
 #radio_poj_stacja
 {
     background-color: white;
     padding: 20px 0px;
     text-align: left;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 
