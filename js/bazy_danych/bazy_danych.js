@@ -159,7 +159,6 @@ let op_kategoria=[
     "Bazy danych, SQL",
 ]
 
-
 let pytania=[
     ["Podczas normalnego działania systemu operacyjnego w laptopie pojawił się komunikat o konieczności formatowania wewnętrznego dysku twardego. Wskazuje on na:",
     "uszkodzoną pamięć RAM",

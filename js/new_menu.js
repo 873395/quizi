@@ -6,6 +6,8 @@ let somediv=document.createElement('div');
         let naglowek=document.createElement('div');
         naglowek.id="menu_naglowek";
         naglowek.innerHTML="Serwis Quizowy - QUIZI";
+        naglowek.addEventListener("click",domowa,false);
+        naglowek.stacja=22;
         szer_menu.appendChild(naglowek);
             for(let m=0;m<guziki_menu.length;m++)
             {

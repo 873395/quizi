@@ -1,5 +1,6 @@
 let czas_animacji=1000;
 let stacja;
+let nie;
 
 for(let licz_opcji=0;licz_opcji<guziki_menu.length;licz_opcji++)
 {
@@ -28,7 +29,7 @@ for(let licz_opcji=0;licz_opcji<guziki_menu.length;licz_opcji++)
 
 function ch_podstrony(f)
 {
-    let nie = f.currentTarget.stacja;
+    nie=f.currentTarget.stacja;
     console.warn(nie);
     sl_div.className="sl_div_anim";
             setTimeout(function(){
@@ -41,8 +42,22 @@ function ch_podstrony(f)
         },czas_animacji)
 }
 
+function domowa()
+{
+    sl_div.className="sl_div_anim";
+            setTimeout(function(){
+                sl_div.classList.remove("sl_div_anim");
+                window.open("index.html","_self");
+            },czas_animacji)
+        setTimeout(function(){
+            sl_div.className="sl_div_anim_rew";
+            sl_div.classList.remove("sl_div_anim_rew");
+        },czas_animacji)
+}
+
 function ch_site(chsite)
 {
+    
     if(chsite==22)
     {
         sl_div.className="sl_div_anim";
