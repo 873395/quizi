@@ -3,9 +3,9 @@
     #content_left
 {
     background-color: rgb(27, 27, 27);
-    width: 100%;
+    width: 92%;
     height: 150px;
-    float: left;
+    float: right;
     z-index: 1;
 }
 #content_left_text
@@ -43,30 +43,11 @@ li
 /* kostki nas tronie głównej */
 #content_large_cube
 {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(22, 21, 21);
-    border: 5px solid white;
-    position: absolute;
-    top: -100%;
-    font-size: 16%;
-    font-weight: 400;
-    transform: rotate(-20deg);
-    padding-top: 23%;
-    padding-left: 2%;
+   display: none;
 }
 #content_small_cube
 {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(22, 21, 21);
-    border: 5px solid white;
-    position: absolute;
-    right: 100%;
-    top: 40%;
-    font-size: 80%;
-    padding-top: 45%;
-    padding-left: 5%;
+    display: none;
 }
 #lc_1
 {
@@ -101,7 +82,7 @@ li
     background-color: rgb(168, 168, 168);
     color: black;
     width: 92%;
-    margin: 7%;
+    margin: 4%;
     font-weight: 600;
     text-align: center;
 }
