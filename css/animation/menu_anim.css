@@ -55,6 +55,11 @@
     0%
     {
         opacity: 100%;
+        filter: blur(none);
+    }
+    50%
+    {
+        filter: blur(1px);
     }
     100%
     {
@@ -66,10 +71,15 @@
     0%
     {
         opacity: 0%;
+        filter: blur(1px);
+    }
+    50%
+    {
+        opacity: 100%;
     }
     100%
     {
-        opacity: 100%;
+        filter: blur(none);
     }
 }
 

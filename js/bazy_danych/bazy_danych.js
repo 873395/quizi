@@ -24,7 +24,7 @@ let guziki_menu=[
     ["QUIZ","ico/menu_quiz.png","quiz.html"],
     ["TIMER","ico/menu_timer.png","timer.html"],
     ["RADIO","ico/menu_radio.png","radio.html"],
-    ["AUTOR","ico/autor_ico.png","autor.html"],
+    ["AUTOR I PARTNERZY","ico/autor_ico.png","autor.html"],
     ["INFORMACJE","ico/info_ico.png","info.html"],
 ]
 let zdjecia=[
@@ -38,12 +38,27 @@ let zdjecia=[
     '<br><img id="zdj_zwykle" onclick="powieksz_zdj()" src="img/quiz/8.jpg" title="Prawa autorskie"></img>',
     '<br><img id="zdj_zwykle" onclick="powieksz_zdj()" src="img/quiz/9.jpg" title="Prawa autorskie"></img>',
     '<img src="img/autor_img.png" title="Zdjęcie autora strony"></img>',
+    '<img src="ico/ultraliga_logo.png" title="Ultraliga"></img>',
+    '<img src="ico/payme_logo.png" title="Zapłać z PayMe"></img>',
+    '<img src="ico/schronisko_logo.png" title="Schronisko w Bieszczadach"></img>',
 ]
 
 let co_nowego=[
     [
+        "PARTNERZY",
+        "pojawili się partnerzy serwisu Quizi",
+        "11.11.2021",
+        "6.2.0",
+    ],
+    [
+        "POPRAWKI RESPONSYWNOŚCI",
+        "poprawa włożenia elementów na urządzeniach mobilnych",
+        "11.11.2021",
+        "6.1.0",
+    ],
+    [
         "PEŁNA RESPONSYWNOŚĆ",
-        "Powstała wersja strony na podstawowe urządzenia mobilne, tablety i smartphony",
+        "powstała wersja strony na podstawowe urządzenia mobilne, tablety i smartphony",
         "11.11.2021",
         "6.0.0",
     ],
@@ -122,6 +137,18 @@ let co_nowego=[
 ];
 
 let inf_autor=[
+    [
+        "PARTNER: ULTRALIGA",
+        `${zdjecia[10]}`
+    ],
+    [
+        "PARTNER: PayMe",
+        `${zdjecia[11]}`
+    ],
+    [
+        "PARTNER: Schronisko Bieszczady",
+        `${zdjecia[12]}`
+    ],
     [
         "KTO TO JEST?",
         `${zdjecia[9]}`
