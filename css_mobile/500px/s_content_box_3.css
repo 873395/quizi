@@ -1,3 +1,4 @@
+@media (max-width: 500px){
 /* Elementy     pojemnika informacje o autorze stronie głównej   */
 #content_box_3
 {
@@ -23,4 +24,5 @@
     width: 30%;
     float: right;
     border-left: 40px solid white;
+}
 }

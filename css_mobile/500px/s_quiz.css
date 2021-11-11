@@ -1,6 +1,8 @@
+@media (max-width: 500px){
 #content_quiz
 {
-    padding: 100px;
+    padding: 10px;
+    padding-left: 25px;
     background-color: rgb(194, 139, 75);
     text-align: center;
 }
@@ -13,12 +15,12 @@
     height: 100%;
     position: absolute;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     padding: 15%;
 }
 #okno_komunikatu
 {
-    width: 600px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -30,9 +32,9 @@
 #komunikat_naglowek
 {
     color: black;
-    padding: 20px;
+    padding: 25px;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 20px;
 }
 .guzik_wykonaj
 {
@@ -51,6 +53,8 @@
     color: orange;
 }
 
+
+
 /* Elementy powiększające zdjęcie w quizie */
 #okno_powieksz
 {
@@ -65,7 +69,7 @@
 #zdj_wieksze
 {
     margin: 0px auto;
-    width: 70%;
+    width: 90%;
     text-align: center;
 }
 #zdj_wieksze:hover
@@ -75,7 +79,7 @@
 #q_zdjecie
 {
     margin: 0px auto;
-    width: 40%;
+    width: 60%;
     color: white;
 }
 #q_zdjecie:hover
@@ -87,23 +91,21 @@ img
     width: 100%;
 }
 
-/* style do pojedyńczych odpowiedzi quizu */
 
+
+/* style do pojedyńczych odpowiedzi quizu */
 #quiz_pytanie
 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 95%;
+    width: 99%;
     background-color: white;
-    border: 5px solid orange;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin:0px auto;
 }
 .quiz_poj_odpowiedz
 {
     margin-top: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
+    margin: 0px auto;
+    font-size: 16px;
     font-weight: 500;
     padding: 30px;
     background-color: rgb(228, 226, 226);
@@ -115,8 +117,8 @@ img
 .quiz_poj_tresc
 {
     background-color: white;
-    padding: 60px;
-    font-size: 30px;
+    padding: 50px;
+    font-size: 25px;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
@@ -145,12 +147,14 @@ img
 }
 .menu_dodat_op
 {
-    padding: 7px;
+    padding: 10px;
     background-color: rgb(59, 59, 59);
     color: white;
     border-radius: 5px;
-    margin: 2px;
+    margin: 2px 5px;
     text-align: center;
+    display: inline-block;
+    min-width: 40%;
 }
 .menu_dodat_op:hover
 {
@@ -159,12 +163,14 @@ img
 }
 .menu_dodat_op_klik
 {
-    text-align: center;
-    padding: 7px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 2px;
+    margin: 2px 5px;
+    text-align: center;
+    display: inline-block;
     background-color: black;
     color: orange;
+    min-width: 40%;
 }
 .menu_dodat_op_klik
 {
@@ -175,4 +181,5 @@ img
     display: inline-block;
     text-align: center;
     padding: 5px;
+}
 }

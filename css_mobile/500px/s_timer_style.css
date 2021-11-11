@@ -1,3 +1,4 @@
+@media (max-width: 500px){
 #content_timer
 {
     width: 95%;
@@ -10,8 +11,7 @@
 }
 #tlo_zegar
 {
-    width: 600px;
-    height: 300px;
+    width: 80%;
     background-color: white;
     border: 10px solid white;
     border-radius: 20px;
@@ -33,6 +33,7 @@
     border: 5px solid orange;
     border-radius: 50px;
     text-align: center;
+    float: left;
 }
 .wprow_wart
 {
@@ -51,14 +52,18 @@
 #stop_odliczanie:hover
 {
     color: red;
+    float: right;
 }
 .guziki_odliczanie
 {
-    margin-top: 10px;
-    width: 300px;
-    padding: 0.5%;
+    margin-top: 20px;
+    width: 49%;
+    padding:5px;
     font-weight: 700;
     font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: inline-block;
 }
 .guziki_odliczanie:hover
 {
@@ -82,4 +87,5 @@
 {
     background-color: rgb(180, 127, 77);
     padding: 2%;
+}
 }

@@ -1,3 +1,4 @@
+@media (max-width: 500px){
 #stopka
 {
     background-color: rgb(27, 27, 27);
@@ -7,4 +8,5 @@
     padding: 2%;
     text-align: center;
     font-weight: 600;
+}
 }

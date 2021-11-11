@@ -1,0 +1,83 @@
+@keyframes menu_h
+{
+    0%
+    {
+        position: absolute;
+        top: -100%;
+        color: black;
+    }
+    80%
+    {
+        color: black;
+    }
+
+    100%
+    {
+        top: 0%;
+        color: white;
+        position: fixed;
+    }
+}
+
+@keyframes menu_z
+{
+    0%
+    {
+        position: fixed;
+        top: 0.1%;
+        color: white;
+    }
+    80%
+    {
+        position: absolute;
+        top: -100%;
+        color: black;
+    }
+    100%
+    {
+        position: absolute;
+        top: -100%;
+        color: black;
+    }
+}
+
+.rozwin_menu_anime
+{
+    animation: menu_h 1s normal forwards;
+}
+.zwin_menu_anime
+{
+    animation: menu_z 1s normal forwards;
+}
+
+@keyframes zm_zdj
+{
+    0%
+    {
+        opacity: 100%;
+    }
+    100%
+    {
+        opacity: 0%;
+    }
+}
+@keyframes zm_zdj_rew
+{
+    0%
+    {
+        opacity: 0%;
+    }
+    100%
+    {
+        opacity: 100%;
+    }
+}
+
+.zmiana_zdjecia
+{
+    animation: zm_zdj 1s normal forwards;
+}
+.zmiana_zdjecia_wycofaj
+{
+    animation: zm_zdj_rew 1s normal forwards;
+}

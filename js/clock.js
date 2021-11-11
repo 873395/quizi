@@ -18,7 +18,7 @@ function stop_guzik()
     guzik_stop.className="guziki_odliczanie";
     guzik_stop.addEventListener('click',stop,true);
     guzik_stop.value="STOP";
-    osadzenie_licznika.appendChild(guzik_stop);
+    tlo_zegar.appendChild(guzik_stop);
 }
 
 function stop()

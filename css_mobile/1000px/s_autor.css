@@ -18,12 +18,11 @@
 {
     background-color: white;
     color: black;
-    width: 92%;
-    float: left;
+    width: 100%;
     padding: 100px 0px;
-    padding-left: 150px;
     text-align: center;
     margin-top: 30px;
+    padding-left:15%;
 }
 
 
@@ -31,24 +30,23 @@
 
 .content_autor
 {
-    width: 100%;
+    width: 95%;
+    margin: 50px auto;
     color: white;
-    margin: 30px auto;
     font-size: 25px;
     text-align: center;
     background-color: var(--glowny-kolor);
     border-radius: 5px;
-    display: inline-block;
-    float: left;
-    border-bottom: 20px solid blue;
+    border-bottom: 10px solid blue;
 }
 .autor_naglowek
 {
+    margin: 50px auto;
     font-size: 30px;
     font-weight: 900;
     padding: 15px;
-    text-align: left;
     border-bottom: 10px solid white;
+    text-align: left;
 }
 .autor_tresc
 {
