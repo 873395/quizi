@@ -1,5 +1,5 @@
-@media (max-width: 1000px){
-#sl_div
+@media (max-width: 500px){
+    #sl_div
 {
     background: linear-gradient(to bottom,rgb(36, 36, 36) 50%, white 51%);
     width: 200%;
@@ -8,7 +8,7 @@
     right: -200%;
     position: fixed;
     z-index: 2;
-    color: orange;
+    color: rgb(255, 0, 0);
     font-size: 200px;
     font-weight: 900;
     padding-left: 50px;

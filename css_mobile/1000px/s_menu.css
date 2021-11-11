@@ -1,5 +1,5 @@
-@media (max-width: 1000px){
-#nav_bar
+@media (min-width:501px) and (max-width:1000px){
+    #nav_bar
 {
     background-color: black;
     border-right: 2px solid white;

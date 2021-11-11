@@ -1,5 +1,5 @@
-@media (max-width: 1000px){
-:root
+@media (min-width:501px) and (max-width:1000px){
+    :root
 {
     --glowny-kolor:orange;
     --poboczny-kolor:rgb(214, 214, 214);

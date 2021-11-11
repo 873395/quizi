@@ -1,5 +1,5 @@
 @media (max-width: 500px){
-#content_radio
+    #content_radio
 {
     text-align: center;
     margin-top: 30px;
@@ -10,8 +10,9 @@
 {
     margin: 50px auto;
     background-color: white;
-    width: 90%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 30px;
+    margin-left: 2%;
 }
 audio::-webkit-media-controls-panel
 {
@@ -19,10 +20,11 @@ audio::-webkit-media-controls-panel
 }
 #radio_poj_stacja
 {
-    background-color: rgba(255, 255, 255, 0);
     text-align: center;
-    float: right;
-    margin: 0px auto;
+    float: left;
+    width: 100%;
+    margin-left: 2%;
+    background-color: rgba(255, 166, 0, 0);
     border-radius: 0px;
 }
 
@@ -33,7 +35,7 @@ audio::-webkit-media-controls-panel
     width: 100%;
     margin-bottom: 10px;
     margin-top: 30px;
-    border: 5px solid orange;
+    border: 2px solid orange;
     border-radius: 10px;
 }
 .nagl_stac_rad

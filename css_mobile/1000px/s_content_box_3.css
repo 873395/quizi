@@ -1,5 +1,5 @@
-@media (max-width: 1000px){
-/* Elementy     pojemnika informacje o autorze stronie głównej   */
+@media (min-width:501px) and (max-width:1000px){
+    /* Elementy     pojemnika informacje o autorze stronie głównej   */
 #content_box_3
 {
     background-color: white;

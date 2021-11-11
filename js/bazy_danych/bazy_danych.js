@@ -42,6 +42,12 @@ let zdjecia=[
 
 let co_nowego=[
     [
+        "PEŁNA RESPONSYWNOŚĆ",
+        "Powstała wersja strony na podstawowe urządzenia mobilne, tablety i smartphony",
+        "11.11.2021",
+        "6.0.0",
+    ],
+    [
         "RESPONSYWNOŚĆ",
         "zmianie i częściowej poprawie uległa responsywność strony",
         "09.11.2021",

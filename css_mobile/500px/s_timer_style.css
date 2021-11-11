@@ -1,5 +1,5 @@
 @media (max-width: 500px){
-#content_timer
+    #content_timer
 {
     width: 95%;
     float: right;
@@ -12,16 +12,18 @@
 #tlo_zegar
 {
     width: 80%;
+    height: auto;
     background-color: white;
     border: 10px solid white;
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 1%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 #zegar_napis
 {
-    font-size: 100px;
+    font-size: 80px;
     font-weight: 700;
     text-align: center;
 }
@@ -38,10 +40,10 @@
 .wprow_wart
 {
     margin-top: 4%;
-    width: 150px;
-    padding:2%;
+    width: 30%;
+    padding:1%;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 .wprow_wart:hover

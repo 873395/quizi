@@ -1,5 +1,5 @@
 @media (max-width: 500px){
-:root {
+    :root {
     --glowny-kolor: rgb(75, 93, 194);
     --drugi-kolor: rgb(197, 197, 197);
 }

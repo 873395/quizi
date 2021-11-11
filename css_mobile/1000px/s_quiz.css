@@ -1,5 +1,5 @@
-@media (max-width: 1000px){
-#content_quiz
+@media (min-width:501px) and (max-width:1000px){
+    #content_quiz
 {
     padding: 10px;
     padding-left: 25px;

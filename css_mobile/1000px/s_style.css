@@ -1,5 +1,4 @@
-@media (max-width: 1000px){
-    
+@media (min-width:501px) and (max-width:1000px){
     #content_left
 {
     background-color: rgb(27, 27, 27);
@@ -12,7 +11,6 @@
 {
     position: absolute;
     font-size: 70px;
-    color: orange;
     font-weight: 900;
     line-height: 90%;
     z-index: 1;
