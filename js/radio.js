@@ -24,8 +24,8 @@ for(l_stac_rad=0;l_stac_rad<tab_stac_rad.length;l_stac_rad++)
         radio_logo.src=tab_stac_rad[l_stac_rad][2];
 
         radio_pojemnik.appendChild(radio_naglowek);
-        radio_pojemnik.appendChild(radio_logo);
         radio_pojemnik.appendChild(radio_tresc);
+        radio_pojemnik.appendChild(radio_logo);
         radio_pojemnik.appendChild(radio_guzik);
         radio_poj_stacja.appendChild(radio_pojemnik);
 }

@@ -1,0 +1,121 @@
+@media (max-width: 1000px){
+#nav_bar
+{
+    background-color: black;
+    border-right: 2px solid white;
+    width: 8%;
+    height: 100%;
+    padding: 0.7%;
+    float: left;
+    position: fixed;
+    z-index: 2;
+}
+.menu_OP
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(37, 37, 37);
+}
+.menu_OP2
+{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+    background-color: rgb(37, 37, 37);
+}
+.menu_OP2:hover
+{
+    cursor: pointer;
+    background-color: red;
+}
+.menu_OP:hover
+{
+    cursor: pointer;
+    background-color: orange;
+}
+.position
+{
+    display: inline-block;
+}
+#Op_3
+{
+    margin-top: 25%;
+}
+#Op_2
+{
+    position: absolute;
+    left: -1000%;
+    top: 40%;
+    width: 220%;
+    height: 10%;
+    border: 5px solid white;
+    background-color: black;
+    transform: rotate(70deg);
+    z-index: 3;
+    
+}
+
+
+#szer_menu
+{
+    background-color:rgb(27, 27, 27);
+    height: 70%;
+    border-bottom: 7px solid white;
+    padding: 5%;
+    position: absolute;
+    top: -100%;
+    right: 0%;
+    z-index: 1;
+    float: left;
+}
+#menu_naglowek
+{
+    background-color: rgb(51, 51, 51);
+    font-weight: 900;
+    font-size: 25px;
+    padding: 15px;
+}
+#menu_naglowek:hover
+{
+    color: orange;
+}
+
+
+#logo_ico
+{
+    width: 100%;
+}
+
+#Op_2:hover
+{
+    border: 7px solid orange;
+}
+
+
+
+
+
+.rmenu_opcje
+{
+    background-color: rgb(51, 51, 51);
+    width: 100%;
+    padding: 10px;
+    float: left;
+    padding-right:15px ;
+    padding-left:15px ;
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.rmenu_opcje:hover
+{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+}

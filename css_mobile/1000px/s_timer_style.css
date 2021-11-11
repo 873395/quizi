@@ -1,0 +1,87 @@
+@media (max-width: 1000px){
+#content_timer
+{
+    width: 95%;
+    float: right;
+    color: black;
+    background-color: white;
+    padding-top: 13%;
+    opacity: 80%;
+    text-align: center;
+}
+#tlo_zegar
+{
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#zegar_napis
+{
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+}
+#wczytaj_liczby
+{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border: 5px solid orange;
+    border-radius: 50px;
+    text-align: center;
+}
+.wprow_wart
+{
+    margin-top: 4%;
+    width: 150px;
+    padding:2%;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+.wprow_wart:hover
+{
+    background-color: black;
+    color: orange;
+}
+#stop_odliczanie:hover
+{
+    color: red;
+}
+.guziki_odliczanie
+{
+    margin-top: 10px;
+    width: 300px;
+    padding: 0.5%;
+    font-weight: 700;
+    font-size: 30px;
+}
+.guziki_odliczanie:hover
+{
+    color: orange;
+    background-color: black;
+}
+
+
+
+#osadzenie_licznika
+{
+    padding-top: 150px;
+    background-color: rgb(180, 127, 77);
+    height: 500px;
+}
+#glowny_licznik
+{
+    width: 100%;
+}
+#licznik_opis
+{
+    background-color: rgb(180, 127, 77);
+    padding: 2%;
+}
+}
