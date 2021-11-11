@@ -62,7 +62,7 @@
 #szer_menu
 {
     background-color:rgb(27, 27, 27);
-    height: 70%;
+    height: auto;
     border-bottom: 7px solid white;
     padding: 5%;
     position: absolute;
