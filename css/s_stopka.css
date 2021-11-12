@@ -1,7 +1,7 @@
 #stopka
 {
     background-color: rgb(27, 27, 27);
-    color: orange;
+    color: var(--akcentkolor);
     width: 95%;
     float: right;
     padding: 2%;

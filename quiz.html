@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LICZNIK</title>
     <link rel="stylesheet" href="css/animation/menu_anim.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="ico/favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="ico/favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="ico/favico/favicon-16x16.png">
+    <link rel="manifest" href="ico/favico/site.webmanifest">
 
     <link rel="stylesheet" href="css/s_body.css">
     <link rel="stylesheet" href="css/s_style.css">
@@ -32,7 +36,7 @@
     <link rel="stylesheet" href="css_mobile/500px/body_slide.css">
 
 </head>
-<body onload="quizz(),ehs()">
+<body onload="quizz()">
     <div class="pozition" id="nav_bar">
         <img onclick="r_menu()" class="menu_OP" id="Op_1" src="ico/menu_ico.png">        
         <div onclick="ch_site(22)" class="menu_OP" id="Op_2">
@@ -50,8 +54,7 @@
             <div class="content_class" id="content_right">
                 <!-- tu są informacje o stanie quizu -->
                 <div class="menu_dodat_opcje paskiWSrodku" id="opcja2" >Liczba punktów</div>
-                    <div id="menu_dodat">
-                    </div>
+                <div id="menu_dodat"></div>
             </div>
         </div>
 
@@ -86,8 +89,7 @@
     <script src="js/new_menu.js"></script>
     <script src="css/animation/body_slide.js"></script>
     
-
-    <script src="js/quiz_script/dzwiek.js"></script>
+    
     <script src="js/quiz_script/quiz.js"></script>
     <script src="js/quiz_script/wybory.js"></script>
 </body>

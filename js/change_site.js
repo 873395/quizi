@@ -2,6 +2,8 @@ let czas_animacji=1000;
 let stacja;
 let nie;
 
+document.title="QUIZI";
+
 for(let licz_opcji=0;licz_opcji<guziki_menu.length;licz_opcji++)
 {
     let menu_opcja=document.createElement('img');

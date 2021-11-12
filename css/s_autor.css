@@ -1,14 +1,11 @@
-:root {
-    --glowny-kolor: rgb(75, 93, 194);
-    --drugi-kolor: rgb(197, 197, 197);
-}
+
 #content_left_text
 {
     position: absolute;
     font-size: 750%;
     padding-left: 5%;
     padding-top: 1.4%;
-    color: var(--glowny-kolor);
+    color: var(--glowny-kolorautor);
     font-weight: 900;
     line-height: 90%;
     z-index: 1;
@@ -35,7 +32,7 @@
     margin: 10px 40px;
     font-size: 25px;
     text-align: center;
-    background-color: var(--glowny-kolor);
+    background-color: var(--glowny-kolorautor);
     border-radius: 10px;
     display: inline-block;
     float: left;
@@ -54,7 +51,7 @@
     padding: 10px;
     font-weight: 600;
     color: black;
-    background-color: var(--drugi-kolor);
+    background-color: var(--drugi-kolorautor);
 }
 img
 {

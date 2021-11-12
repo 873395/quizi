@@ -25,9 +25,6 @@ element_zakrywajacy.id="element_zakrywajacy";
             kom_guzik.id="guzik_wykonaj";
             kom_guzik.className="guzik_wykonaj";
             kom_guzik.innerHTML="WYKONAJ";
-            wyloncznik_dzwieku.addEventListener('click',ehs,false);
-            wyloncznik_dzwieku.addEventListener('click',wlaczone,false);
-            okno_komunikatu.appendChild(wyloncznik_dzwieku);
             okno_komunikatu.appendChild(kom_guzik);
             kom_guzik.addEventListener('click',zakrywka,false);
 document.body.appendChild(element_zakrywajacy);
@@ -261,12 +258,10 @@ function sprawdzenie(numer)
      if(numer=='A'){guuzik1.style.borderBottom=`5px solid ${zlykolor}`;} //czerwone
      if(numer=='B'){guuzik2.style.borderBottom=`5px solid ${zlykolor}`;} //czerwone
      if(numer=='C'){guuzik3.style.borderBottom=`5px solid ${zlykolor}`;} //czerwone
-     dzwiekOdpowiedziNiedobrej();
      pierwsze=false; //przerwanie
 
      quiz_poj_nastepne.value="NASTĘPNE";
      if(numer==prawidlowa){
-        dzwiekOdpowiedzi();  
          dobre++;        
     }
 
@@ -281,16 +276,16 @@ function sprawdzenie(numer)
     }
 
     odpowiedzi=`Punkty ${dobre} / ${calkowite}`;       //Liczenie liczby punktów
-    let srednia=dobre/calkowite;
-        let zaokraglona=Math.round(srednia*100)/100;
-        kolorek.innerHTML=`ŚREDNIA: ${zaokraglona}`;
+    let srednia=dobre/calkowite*100;
+        let zaokraglona=Math.round(srednia*10)/10;
+        kolorek.innerHTML=`ŚREDNIA: ${zaokraglona}%`;
         if(srednia<=0.5)
         {
-            kolorek.style.color="rgb(255 0 0)";  //czerwony kolor napisu sredniej
+            kolorek.style.color="red";  //czerwony kolor napisu sredniej
         }
         else
         {
-            kolorek.style.color="rgb(0 255 0)"; //zielony napis
+            kolorek.style.color="green"; //zielony napis
         };
     opcja2.innerHTML=odpowiedzi;
 }

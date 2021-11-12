@@ -1,6 +1,17 @@
+:root
+{
+    --backgroundcolor:rgba(41, 40, 40, 0.938);
+    --backgroundcolor2:rgb(34, 34, 34);
+    --akcentkolor:orange;
+    --glowny-kolor:orange;
+    --poboczny-kolor:rgb(214, 214, 214);
+    --wielkosc-czcionki:15px;
+    --glowny-kolorautor: rgb(75, 93, 194);
+    --drugi-kolorautor: rgb(197, 197, 197);
+}
 #content_left
 {
-    background-color: rgb(27, 27, 27);
+    background-color: var(--backgroundcolor);
     width: 70%;
     height: 300px;
     float: left;
@@ -13,7 +24,7 @@
     font-size: 750%;
     padding-left: 5%;
     padding-top: 1.4%;
-    color: orange;
+    color: var(--akcentkolor);
     font-weight: 900;
     line-height: 90%;
     z-index: 1;
@@ -25,7 +36,7 @@
     width: 24%;
     height: 300px;
     margin-right:0.5%;
-    background-color: rgb(190, 188, 188);
+    background-color: rgba(211, 210, 210, 0.87);
     color: black;
     opacity: 80%;
     z-index: 1;
@@ -53,7 +64,7 @@ li
 {
     width: 300px;
     height: 300px;
-    background-color: rgb(22, 21, 21);
+    background-color: var(--backgroundcolor2);
     border: 5px solid white;
     position: absolute;
     right: -50%;
@@ -68,7 +79,7 @@ li
 {
     width: 200px;
     height: 200px;
-    background-color: rgb(22, 21, 21);
+    background-color: var(--backgroundcolor2);
     border: 5px solid white;
     position: absolute;
     right: 100%;
@@ -144,7 +155,7 @@ font-size: 22px;
 #content_button:hover
 {
     background-color:rgb(22, 21, 21) ;
-    color: orange;
+    color:var(--akcentkolor);
     border: 1px solid rgb(22, 21, 21);
     cursor: pointer;
 }

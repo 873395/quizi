@@ -48,7 +48,7 @@
 .guzik_wykonaj:hover
 {
     background-color: black;
-    color: orange;
+    color: var(--akcentkolor);
 }
 
 /* Elementy powiększające zdjęcie w quizie */
@@ -95,7 +95,7 @@ img
     margin-right: auto;
     width: 95%;
     background-color: white;
-    border: 5px solid orange;
+    border: 5px solid var(--akcentkolor);
     border-radius: 20px;
 }
 .quiz_poj_odpowiedz
@@ -134,7 +134,7 @@ img
 #quiz_poj_nastepne:hover
 {
     background-color: black;
-    color: orange;
+    color: var(--akcentkolor);
 }
 
 
@@ -154,7 +154,7 @@ img
 }
 .menu_dodat_op:hover
 {
-    color: orange;
+    color: var(--akcentkolor);
     cursor: pointer;
 }
 .menu_dodat_op_klik
@@ -164,7 +164,7 @@ img
     border-radius: 5px;
     margin: 2px;
     background-color: black;
-    color: orange;
+    color: var(--akcentkolor);
 }
 .menu_dodat_op_klik
 {

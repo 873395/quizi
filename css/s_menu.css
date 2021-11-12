@@ -1,6 +1,6 @@
 #nav_bar
 {
-    background-color: black;
+    background-color: var(--backgroundcolor);
     border-right: 8px solid white;
     width: 5%;
     height: 100vh;
@@ -36,7 +36,7 @@
 .menu_OP:hover
 {
     cursor: pointer;
-    background-color: orange;
+    background-color: var(--akcentkolor);
 }
 
 .position
@@ -55,7 +55,7 @@
     width: 280%;
     height: 22%;
     border: 10px solid white;
-    background-color: black;
+    background-color: var(--backgroundcolor2);
     transform: rotate(70deg);
     z-index: 1;
 }
@@ -63,7 +63,7 @@
 
 #szer_menu
 {
-    background-color:rgb(27, 27, 27);
+    background-color:var(--backgroundcolor);
     width: 95%;
     height: 20%;
     border-bottom: 7px solid white;
@@ -88,7 +88,7 @@
 
 #Op_2:hover
 {
-    border: 7px solid orange;
+    border: 7px solid var(--akcentkolor);
 }
 
 
@@ -111,7 +111,7 @@
 .rmenu_opcje:hover
 {
     background-color: black;
-    color: orange;
+    color: var(--akcentkolor);
     cursor: pointer;
 }
 #roz_menu_opcja
