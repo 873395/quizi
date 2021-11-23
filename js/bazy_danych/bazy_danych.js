@@ -39,11 +39,17 @@ let zdjecia=[
     '<br><img id="zdj_zwykle" onclick="powieksz_zdj()" src="img/quiz/9.jpg" title="Prawa autorskie"></img>',
     '<img src="img/autor_img.png" title="Zdjęcie autora strony"></img>',
     '<a href=""><img src="ico/ultraliga_logo.png" title="Ultraliga"></img></a>',
-    '<a href="https://morguss.github.io/PayMe/"><img src="ico/payme_logo.png" title="Zapłać z PayMe"></img></a>',
-    '<a href="https://goldaik.github.io/bieszczadzkie-schronisko/"><img src="ico/schronisko_logo.png" title="Schronisko w Bieszczadach"></img></a>',
+    '<a href="https://morguss.github.io/PayMe/"target="_blank"><img src="ico/payme_logo.png" title="Zapłać z PayMe"></img></a>',
+    '<a href="https://goldaik.github.io/bieszczadzkie-schronisko/"target="_blank"><img src="ico/schronisko_logo.png" title="Schronisko w Bieszczadach"></img></a>',
 ]
 
 let co_nowego=[
+    [
+        "JAK URUCHOMIĆ RADIO",
+        "poradnik, jak uruchomić radio pomimo problemów",
+        "23.11.2021",
+        "7.0.0",
+    ],
     [
         "PARTNERZY",
         "pojawili się partnerzy serwisu Quizi",

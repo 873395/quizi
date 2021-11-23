@@ -81,3 +81,31 @@ audio::-webkit-media-controls-panel
     border: 10px solid var(--akcentkolor);
     z-index: inherit;
 }
+
+#nie_dziala
+{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 250%;
+    font-weight: 900;
+}
+#nie_dziala::first-letter
+{
+    color: orange;
+    font-size: 190%;
+}
+#nie_dziala_guzik
+{
+    background-color: orange;
+    padding: 0.5%;
+    font-size: 60%;
+    font-weight: 900;
+    border-radius: 30px;
+}
+#nie_dziala_guzik:hover
+{
+    background-color: black;
+    color: orange;
+}

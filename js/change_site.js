@@ -32,7 +32,6 @@ for(let licz_opcji=0;licz_opcji<guziki_menu.length;licz_opcji++)
 function ch_podstrony(f)
 {
     nie=f.currentTarget.stacja;
-    console.warn(nie);
     sl_div.className="sl_div_anim";
             setTimeout(function(){
                 sl_div.classList.remove("sl_div_anim");
@@ -83,5 +82,17 @@ function ch_site(chsite)
     if(chsite==12)
     {
         window.open("autor.html","_self");
+    }
+    if(chsite==20)
+    {
+        sl_div.className="sl_div_anim";
+            setTimeout(function(){
+                sl_div.classList.remove("sl_div_anim");
+                window.open("rozwiazanie.html","_blank");
+            },czas_animacji)
+        setTimeout(function(){
+            sl_div.className="sl_div_anim_rew";
+            sl_div.classList.remove("sl_div_anim_rew");
+        },czas_animacji)
     }
 }

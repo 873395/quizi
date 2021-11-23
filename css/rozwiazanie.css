@@ -1,0 +1,28 @@
+body
+{
+    margin: 0px;
+}
+#na_gorze
+{
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    padding: 1%;
+    font-weight: 900;
+}
+#na_gorze:hover
+{
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+}
+#kroki
+{
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+li
+{
+    font-size: 150%;
+}
