@@ -495,5 +495,5 @@ let pytania=[
     "Mag",
     "Wojownik",
     "A",
-    op_kategoria[4]],
+    op_kategoria[4]]
 ]
