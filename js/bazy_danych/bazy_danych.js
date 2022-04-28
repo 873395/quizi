@@ -1,17 +1,12 @@
 let zdj_lista=[
-    "https://cdna.artstation.com/p/assets/images/images/041/781/798/large/adrian-ziajor-1kd.jpg?1632682582",
-    "https://cdna.artstation.com/p/assets/images/images/041/781/806/large/adrian-ziajor-3kd.jpg?1632682596",
-    "https://cdna.artstation.com/p/assets/images/images/041/781/812/large/adrian-ziajor-4kd.jpg?1632682603",
-    "https://cdnb.artstation.com/p/assets/images/images/041/781/879/large/adrian-ziajor-1krd.jpg?1632682755",
-    "https://cdnb.artstation.com/p/assets/images/images/041/781/889/large/adrian-ziajor-2krn.jpg?1632682776",
-    "https://cdnb.artstation.com/p/assets/images/images/041/781/941/large/adrian-ziajor-1lzd.jpg?1632682899",
-    "https://cdnb.artstation.com/p/assets/images/images/041/781/983/large/adrian-ziajor-2pkd.jpg?1632682957",
-    "https://cdna.artstation.com/p/assets/images/images/041/782/036/large/adrian-ziajor-1sakdd.jpg?1632683037",
-    "https://cdna.artstation.com/p/assets/images/images/041/782/074/large/adrian-ziajor-1sd.jpg?1632683102",
-    "https://cdna.artstation.com/p/assets/images/images/041/782/078/large/adrian-ziajor-2sd.jpg?1632683109",
-    "https://cdnb.artstation.com/p/assets/images/images/041/782/083/large/adrian-ziajor-4sd.jpg?1632683122",
-    "https://cdnb.artstation.com/p/assets/images/images/041/782/271/large/adrian-ziajor-1.jpg?1632683553",
-    "https://cdna.artstation.com/p/assets/images/images/041/782/288/large/adrian-ziajor-4.jpg?1632683573",
+    "https://cdna.artstation.com/p/assets/images/images/048/463/682/large/adrian-ziajor-0-3-0-pub.jpg?1650103784",
+    "https://cdna.artstation.com/p/assets/images/images/048/463/772/large/adrian-ziajor-112-pub.jpg?1650104234",
+    "https://cdna.artstation.com/p/assets/images/images/048/463/868/large/adrian-ziajor-205-4-1-pub.jpg?1650104523",
+    "https://cdnb.artstation.com/p/assets/images/images/048/463/917/large/adrian-ziajor-205-4-2-pub.jpg?1650104743",
+    "https://cdna.artstation.com/p/assets/images/images/048/463/950/large/adrian-ziajor-301-2-2-0-pub.jpg?1650104831",
+    "https://cdnb.artstation.com/p/assets/images/images/048/463/985/large/adrian-ziajor-310a-3-pub.jpg?1650105007",
+    "https://cdna.artstation.com/p/assets/images/images/048/463/994/large/adrian-ziajor-p-3-0-pub.jpg?1650105025",
+    "https://cdnb.artstation.com/p/assets/images/images/048/463/999/large/adrian-ziajor-zew-1-6-pub.jpg?1650105045",
 ];
 
 let tab_stac_rad=[
@@ -44,6 +39,12 @@ let zdjecia=[
 ]
 
 let co_nowego=[
+    [
+        "NOWY SZKOLNY PROJEKT",
+        "Projekt szkolny został opublikowany na Artstation",
+        "28.04.2022",
+        "7.0.0",
+    ],
     [
         "JAK URUCHOMIĆ RADIO",
         "poradnik, jak uruchomić radio pomimo problemów",
