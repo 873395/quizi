@@ -35,7 +35,6 @@ let zdjecia=[
     '<img src="img/autor_img.png" title="Zdjęcie autora strony"></img>',
     '<a href="https://shavi25.github.io/Ultraliga/index.html" target="_blank"><img src="ico/ultraliga_logo.png" title="Ultraliga"></img></a>',
     '<a href="https://morguss.github.io/PayMe/"target="_blank"><img src="ico/payme_logo.png" title="Zapłać z PayMe"></img></a>',
-    '<a href="https://goldaik.github.io/bieszczadzkie-schronisko/" target="_blank"><img src="ico/schronisko_logo.png" title="Schronisko w Bieszczadach"></img></a>',
 ]
 
 let co_nowego=[
@@ -153,16 +152,12 @@ let inf_autor=[
         `${zdjecia[11]}`
     ],
     [
-        "PARTNER: Schronisko Bieszczady",
-        `${zdjecia[12]}`
-    ],
-    [
         "KTO TO JEST?",
         `${zdjecia[9]}`
     ],
     [
         "PODSTAWOWE INFORMACJE",
-        "<ul><li>Adrian Ziajor</li><li>Lat: 19</li><li>Wykształcenie: prawie technik informatyk</li></ul>"
+        "<ul><li>Adrian Ziajor</li><li>Lat: 19</li><li>Wykształcenie: Technik informatyk</li></ul>"
     ],
     [
         "PRZYBLIŻONE MIEJSCE PRZEBYWANIA",
@@ -173,10 +168,6 @@ let inf_autor=[
         "<ul><li>informatyka</li><li>elektronika</li><li>nowe technologie</li><li>kolej, lotnictwo</li></ul>"
     ],
     [
-        "ZDOLNOŚCI SPORTOWE?",
-        "Niewielkie, ale tenis ziemny zawsze na +"
-    ],
-    [
         "SZCZEGÓLNIE POTRAKTOWANE",
         "Kolej, zarówno ta dawna jak i ta obecna zajmuje szczególne miejsce na liście zainteresowań.<br> Gdyby była taka możliwość byłbym kolejarzem ;-)"
     ],
@@ -184,12 +175,6 @@ let inf_autor=[
         "NOWE TECHNOLOGIE?",
         "Staram się być na bierząco z nowinkami w świecie technologi, ale nie jest to zawsze możliwe, technologia dzisiaj bardzo idzie do przodu"
     ],
-    [
-        "FILOZOF SIĘ ZNALAZŁ",
-        "Pomimo problemów i przeciwności losu nie wolno się poddawać, trzeba dążyć do celu, jaki sobie obraliśmy. Cieszmy się z życia tego co robić lubimy"
-    ],
-
-    
 ]
 
 let op_kategoria=[
